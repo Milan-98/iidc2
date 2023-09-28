@@ -1,6 +1,7 @@
 import Image from "next/image";
 import VenueLightBox from "@/components/VenueLightBox";
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+
 const page = () => {
   return (
     <main>
@@ -15,13 +16,13 @@ const page = () => {
           experience of IIDC participants"
       />
       {/* About Royal Orchid section ----------------------------------------------*/}
-      <section className="px-6 pt-10 text-[#484848] lg:grid lg:grid-cols-2  lg:px-20 lg:pb-10 lg:pt-20  ">
+      <section className="px-6 pt-10 text-[#484848] lg:grid lg:grid-cols-2  lg:px-24 lg:pb-10 lg:pt-20  ">
         <section>
-          <h3 className="text-4xl  font-semibold -tracking-tight text-[#1f1f1f]">
+          <h3 className="text-4xl lg:text-5xl  font-semibold -tracking-tight text-[#1f1f1f]">
             Hotel Royal Orchid
           </h3>
-          <hr className="mb-3 mt-2 w-36 border-b-[1px] border-[#DF9627] sm:w-[21.7rem]  lg:mb-4 lg:mt-3  " />
-          <p className="mt-2">
+          <hr className="mb-3 mt-2 w-36 border-b-[1px] border-[#DF9627] sm:w-[21.7rem] lg:w-[24rem] lg:mb-4 lg:mt-3  " />
+          <p className="mt-2 lg:text-[1.06rem]">
             Royal Orchid & Regenta Hotels is one of India&apos;s fastest-growing
             hospitality brands, managing a portfolio of over 90+ properties
             across the country. Founded in 2001 by industry veteran Mr. Chander
@@ -29,7 +30,7 @@ const page = () => {
             brand with a growth plan to reach 100 hotels by 2023.
           </p>
 
-          <p className="mt-4">
+          <p className="mt-4 lg:text-[1.06rem]">
             We cater to business and leisure travellers who value comfort, great
             cuisine, distinctly warm Indian hospitality, and value for money.
             Our modern and fully equipped hotels, resorts, long-stay suites, and
@@ -42,7 +43,7 @@ const page = () => {
             exceptional outcomes for our owners, guests, staff, and
             shareholders.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 lg:text-[1.06rem]">
             Nestled in the heart of Bangalore, the Royal Orchid Hotel sets the
             stage for an enchanting and unforgettable experience. This
             prestigious venue embodies luxury, sophistication, and warm
@@ -73,7 +74,7 @@ const page = () => {
               alt="Hotel Sponsers"
             />
           </section>
-          <div className="bg-white lg:h-20"></div>
+          <div className="bg-white lg:h-32"></div>
         </section>
       </section>
       <VenueLightBox />

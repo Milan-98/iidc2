@@ -1,14 +1,20 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { Poppins } from "next/font/google";
+const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 
 const VenueLightBox = () => {
   const [ElementId, setElementId] = useState("0");
   return (
     <>
-      <section className="bg-black px-4 pb-14  pt-10 md:px-6  lg:px-36">
-        <h3 className="text-4xl font-black text-[#DF9627]  ">Venue Snaps</h3>
-        <hr className="mb-4 mt-2  border-b-[1px] border-[#DF9627] lg:mb-6 lg:mt-3 " />
+      <section className="bg-black px-4 pb-14  pt-10 md:px-6 lg:px-24 lg:pb-20  lg:pt-16">
+        <h3
+          className={`text-4xl font-black text-[#DF9627] lg:text-4xl ${poppinsBold.className} `}
+        >
+          Venue Snaps
+        </h3>
+        <hr className="mb-4  mt-2  border-b-[1px] border-[#DF9627] lg:mb-8 lg:mt-4  " />
         <section
           onClick={(e) =>
             (e.target as HTMLElement).id !== "0"

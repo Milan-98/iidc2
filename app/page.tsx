@@ -2,24 +2,30 @@ import Link from "next/link";
 import JohnEnthony from "@/components/JohnEnthony";
 import ArtistCarousel from "@/components/ArtistCarousel";
 import Head from "next/head";
+import { Poppins } from "next/font/google";
+const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
+
 export default function Home() {
   return (
     <>
       <Head>
         {/* canonical */}
         <link rel="canonical" href="https://iidc.co.in/" />
-          {/* Keywords */}
-          <meta name="keywords" content="Dance Congress India,IIDC Dance Festival," />
+        {/* Keywords */}
+        <meta
+          name="keywords"
+          content="Dance Congress India,IIDC Dance Festival,"
+        />
       </Head>
       <main className="">
         {/* Home Page Hero Bg--------------------------------------------------- */}
-        <section className="bg-[#00000048] bg-HomePageHero bg-cover bg-blend-multiply  md:h-[100dvh] lg:h-fit ">
+        <section className="bg-[#00000048] bg-HomePageHero bg-cover bg-repeat-y bg-blend-multiply  md:h-[100dvh] lg:h-fit ">
           <section className="pt-28 md:pt-52 lg:px-32 lg:pt-36">
-            <h3 className="mb-1 text-center text-[.79rem] -tracking-tighter  text-white lg:mb-2 lg:text-start lg:text-xs lg:font-semibold">
+            <h3 className="mb-1  text-center text-[.79rem] -tracking-tighter  text-white lg:mb-2 lg:text-start lg:text-xs lg:font-semibold">
               A JOHN ANTHONY&apos;S PRODUCTION
             </h3>
             <hr className="mx-auto w-24 lg:mx-0 lg:w-12" />
-            <h1 className="mt-4 px-1 text-center text-[2.5rem]  font-black leading-[2.8rem] -tracking-tight text-white lg:mt-3 lg:text-start  lg:text-7xl">
+            <h1 className={`mt-4 ${poppinsBold.className} px-1 text-center text-[2.5rem]  font-black leading-[2.8rem] -tracking-tight text-white lg:mt-3 lg:text-start  lg:text-7xl `}>
               {" "}
               India <br /> International <br className="sm:hidden" /> Dance{" "}
               <br /> Congress (IIDC) <br />{" "}
@@ -112,11 +118,11 @@ export default function Home() {
         {/* Home page main content-------------------------------------------------------*/}
         {/* Book Your Ticket tooday section ---------- */}
         <section className="bg-black px-6 py-16 sm:px-8 md:px-12 lg:px-28">
-          <h3 className="text-3xl font-semibold -tracking-tighter text-[#DF9627] md:text-4xl ">
+          <h3 className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] md:text-4xl ${poppinsBold.className}`}>
             Book your tickets today!
           </h3>
           <hr className="mb-3 mt-2 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem]  lg:mb-4  lg:mt-3 lg:w-[40rem]  " />
-          <p className="text-white lg:pr-40">
+          <p className="text-white lg:pr-40 lg:text-[1.06rem]">
             IIDC brings in some of the best international artists in the world
             of Latin dance. These artists are renowned for their skills and
             expertise in various Latin dance styles, providing participants with
@@ -142,7 +148,7 @@ export default function Home() {
           </Link>
         </section>
         {/* Video Section ------------------------------------------------------- */}
-        <section className="bg-[#00000048] bg-HomePageVideoSectionBg bg-cover py-16 bg-blend-multiply lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-20 lg:px-20 lg:py-20">
+        <section className="bg-[#00000048] bg-HomePageVideoSectionBg bg-cover bg-fixed bg-repeat-y py-16 bg-blend-multiply lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-20 lg:px-20 lg:py-20">
           <iframe
             title="vimeo-player"
             className="mx-auto h-[30rem] w-[17rem] sm:h-[40rem] sm:w-[24rem] lg:ml-10"
@@ -151,13 +157,13 @@ export default function Home() {
             allowFullScreen
           ></iframe>
           <section className="mt-10 px-6 sm:px-8 md:px-12 lg:col-span-2 lg:ml-10 lg:mt-0 lg:px-0 lg:pr-20">
-            <h3 className="text-3xl font-semibold -tracking-tighter text-[#DF9627] lg:text-4xl lg:font-bold ">
+            <h3 className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] lg:text-4xl lg:font-bold ${poppinsBold.className}`}>
               India International Dance <br className="hidden lg:block" />{" "}
               Congress -
               <br className="hidden md:block lg:hidden" /> 09th Edition
             </h3>
-            <hr className="mb-3 mt-2 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem]  lg:mb-4  lg:mt-3  lg:w-[30rem]  " />
-            <p className="text-white">
+            <hr className="mb-3 mt-2 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem]  lg:mb-5  lg:mt-3  lg:w-[24rem]  " />
+            <p className="text-white  lg:text-[1.06rem]">
               The India International Dance Congress (IIDC) is a celebrated
               annual gathering that pulsates with the vibrant rhythms of Latin
               dance. This electrifying event has firmly established itself as a
@@ -167,7 +173,7 @@ export default function Home() {
               Latin dance, offering an unparalleled platform for learning,
               networking, and celebrating the passion for dance.
             </p>
-            <p className="mt-3 text-white">
+            <p className="mt-3 text-white lg:mt-4  lg:text-[1.06rem]">
               Whether you&apos;re an aspiring dancer looking to refine your
               skills, a seasoned professional seeking inspiration, or simply
               someone who loves to move to the beat, IIDC promises an
@@ -177,7 +183,7 @@ export default function Home() {
               global Latin dance scene.
             </p>
             <Link href={"/buy-tickets-iidc"}>
-              <li className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] ">
+              <li className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-10 ">
                 {" "}
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -197,8 +203,8 @@ export default function Home() {
         {/* John Enthony section */}
         <JohnEnthony />
         {/* Carousel section*/}
-        <section className="bg-[#00000048] bg-EthosBg bg-cover px-6 py-10 bg-blend-multiply sm:px-10 lg:px-32   lg:py-16 ">
-          <h3 className="text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start">
+        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-32   lg:py-16 ">
+          <h3 className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}>
             Artists Line-up
           </h3>
           <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />

@@ -1,4 +1,8 @@
 import Image from "next/image";
+import { Poppins } from "next/font/google";
+
+const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
+
 const JohnEnthony = () => {
   return (
     <section
@@ -13,7 +17,7 @@ const JohnEnthony = () => {
         className="mx-auto w-72 sm:mx-0 sm:w-96  md:w-[29rem]"
       />
       <section className="col-span-2 mt-7 text-[#e6e6e6] lg:mt-0">
-        <h3 className="text-3xl font-semibold  -tracking-tight text-[#DF9627] lg:text-4xl">
+        <h3 className={`text-3xl ${poppinsBold.className} font-semibold  -tracking-tight text-[#DF9627] lg:text-4xl`}>
           John Anthony
         </h3>
         <h5 className="text-xs text-[#868585] lg:text-sm">

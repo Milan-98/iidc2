@@ -1,15 +1,17 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { Poppins } from "next/font/google";
+const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
 const DjArtistLineupLightbox = () => {
   const [ElementId, setElementId] = useState("0");
 
   return (
     <>
       {/* DJ Section */}
-      <section className=" px-4 pb-14  pt-5  md:px-6  lg:px-36">
-        <h3 className="mt-10 text-4xl font-black text-[#DF9627]  ">DJ</h3>
-        <hr className="mb-4 mt-2  border-b-[1px] border-[#DF9627] lg:mb-6 lg:mt-3 " />
+      <section className=" px-4 pb-14 lg:px-14  pt-5  md:px-6  ">
+        <h3 className={`mt-10 text-4xl font-black lg:px-10 text-[#DF9627] -tracking-tighter text-[2.5rem] ${poppinsBold.className} `}>DJ</h3>
+        <hr className="mb-4 mt-2  border-b-[1px] lg:mx-10 border-[#DF9627] lg:mb-7 lg:mt-3 " />
 
         {/* Image container of DJ's */}
         <section
@@ -18,7 +20,7 @@ const DjArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3  gap-3 text-[#4b4b4b]  lg:gap-5 "
+          className=" grid grid-cols-3  gap-3 text-[#4b4b4b]   "
           id="0"
         >
           <section id="0" className="grid gap-1 md:gap-2">
@@ -32,7 +34,7 @@ const DjArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center  text-sm md:text-base md:font-bold"
+              className="text-center lg:text-2xl text-sm md:text-base md:font-bold"
             >
               Julian Duke
             </h5>
@@ -48,7 +50,7 @@ const DjArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center  text-sm md:text-base md:font-bold"
+              className="text-center lg:text-xl  text-sm md:text-base md:font-bold"
             >
               DJ Dimen5ions
             </h5>
