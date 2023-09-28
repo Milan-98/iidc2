@@ -1,6 +1,8 @@
 import Image from "next/image";
 import JohnEnthony from "@/components/JohnEnthony";
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+import { Poppins } from "next/font/google";
+const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
 const page = () => {
   return (
     <main>
@@ -13,13 +15,13 @@ const page = () => {
           vibrant celebration of dance, culture, and community."
       />
       {/* IIDC MAin COntent -------------------------------------------------- */}
-      <section className="px-6 py-10 md:px-10 lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-20 lg:py-20">
+      <section className="px-6 py-10 md:px-10 lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-24 lg:py-20">
         <section className=" col-span-2">
-          <h3 className="text-3xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl">
-            India International Dance Congress
+          <h3 className={` text-3xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl `}>
+            India International Dance <hr className="lg:block hidden opacity-0 my-1" /> Congress (IIDC)
           </h3>
-          <hr className="mb-4 mt-3 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem] lg:mb-4  lg:mt-3 lg:w-[40rem]  " />
-          <p className="mt-5">
+          <hr className="mb-4 mt-3 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem] lg:mb-4  lg:mt-3 lg:w-[24rem]  " />
+          <p className="mt-5  lg:text-[1.07rem]">
             The India International Dance Congress (IIDC) is a dazzling
             celebration of Latin dance and culture that has captured the hearts
             of dancers and enthusiasts across India and around the globe. As an
@@ -30,7 +32,7 @@ const page = () => {
             creativity, and to create a sense of belonging within the global
             dance community.
           </p>
-          <p className="mt-3">
+          <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
             At the helm of IIDC is the visionary founder, John Anthony, a
             luminary in the world of Latin dance with over 15 years of
             experience in various Latin dance forms. His passion for dance,
@@ -40,7 +42,7 @@ const page = () => {
             only educates and entertains but also forges deep connections and
             lasting friendships.
           </p>
-          <p className="mt-3">
+          <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
             IIDC&apos;s allure lies in its diverse offerings, from world-class
             workshops conducted by international dance masters to electrifying
             performances that captivate and inspire. It&apos;s a place where
@@ -63,8 +65,8 @@ const page = () => {
         />
       </section>
       {/* Ethos Section ---------------------------------------------------- */}
-      <section className="bg-[#00000048] bg-EthosBg bg-cover px-6 py-10 text-[#d2d2d2] bg-blend-multiply sm:px-10 sm:py-14 md:px-14 lg:px-28">
-        <h3 className="text-center text-4xl  font-semibold  -tracking-tight text-[#DF9627]">
+      <section className={`bg-[#00000048] bg-fixed bg-center lg:text-[1.06rem] bg-EthosBg bg-cover px-6 py-10 text-[#d2d2d2] bg-blend-multiply sm:px-10 sm:py-14 md:px-14 lg:px-24 `}>
+        <h3 className={`text-center ${poppinsBold.className} text-4xl  font-semibold  -tracking-tight text-[#DF9627]`}>
           Our Ethos
         </h3>
         <hr className="mx-auto mb-3 mt-2 w-32 border-b-[1px] border-[#DF9627] sm:w-[21.7rem]  lg:mb-4 lg:mt-3  " />
@@ -81,7 +83,7 @@ const page = () => {
         </h3>
 
         {/* Ethos Sub Sections -------------------------------------------------- */}
-        <section className="lg:grid lg:grid-cols-2 lg:gap-16 lg:px-20 lg:py-10">
+        <section className="lg:grid lg:grid-cols-2 lg:gap-16  lg:px-20 lg:py-10">
           <section className="">
             <h3 className="text-center  text-xl font-semibold -tracking-tighter text-[#d2d2d295]">
               Promoting Diversity

@@ -1,17 +1,19 @@
 "use client";
 import Image from "next/image";
 import { useState } from "react";
+import { Poppins } from "next/font/google";
+const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
 const IndianArtistLineupLightbox = () => {
   const [ElementId, setElementId] = useState("0");
 
   return (
     <>
       {/* India artist section ------------------------------------------------ */}
-      <section className=" px-4  pt-5  md:px-6  lg:px-36">
-        <h3 className="mt-10 text-4xl font-black text-[#DF9627]  ">
+      <section className=" px-4  pt-5  md:px-6  lg:px-14">
+        <h3 className={`mt-10 text-4xl lg:px-10 font-black lg:text-[2.5rem] -tracking-tighter  text-[#DF9627] ${poppinsBold.className}  `}>
           Indian Artist
         </h3>
-        <hr className="mb-4 mt-2  border-b-[1px] border-[#DF9627] lg:mb-6 lg:mt-3 " />
+        <hr className="mb-4 mt-2  border-b-[1px] lg:mx-10 border-[#DF9627] lg:mb-7 lg:mt-3 " />
         {/*Indian artists image conatiner-------------------------------- */}
         <section
           onClick={(e) =>
@@ -19,7 +21,7 @@ const IndianArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3 gap-3 text-[#4b4b4b]  "
+          className=" grid grid-cols-3 gap-3 text-[#4b4b4b] lg:gap-y-5 "
           id="0"
         >
           <section className="grid gap-1" id="0">
@@ -32,7 +34,7 @@ const IndianArtistLineupLightbox = () => {
               id="1"
             />
             <h5
-              className="text-center  text-sm md:text-base md:font-semibold"
+              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
               id="0"
             >
               Brij & Auroshikha
@@ -48,7 +50,7 @@ const IndianArtistLineupLightbox = () => {
               id="2"
             />
             <h5
-              className="text-center  text-sm md:text-base md:font-semibold "
+              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold "
               id="0"
             >
               Gautam
@@ -64,7 +66,7 @@ const IndianArtistLineupLightbox = () => {
               id="3"
             />
             <h5
-              className="text-center  text-sm md:text-base md:font-semibold"
+              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
               id="0"
             >
               Jegatha
@@ -81,7 +83,7 @@ const IndianArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center  text-sm md:text-base md:font-semibold"
+              className="text-center  lg:text-xl text-sm md:text-base md:font-semibold"
             >
               Raquel & Pratik
             </h5>
@@ -96,7 +98,7 @@ const IndianArtistLineupLightbox = () => {
               id="5"
             />
             <h5
-              className="text-center  text-sm md:text-base md:font-semibold"
+              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
               id="0"
             >
               Nakul Ghanekar
@@ -113,7 +115,7 @@ const IndianArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center  text-sm md:text-base md:font-semibold"
+              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
             >
               Priyanka Kirad
             </h5>
@@ -128,7 +130,7 @@ const IndianArtistLineupLightbox = () => {
               id="7"
             />
             <h5
-              className="  text-center text-sm  md:text-base md:font-semibold"
+              className="  text-center lg:text-xl text-sm  md:text-base md:font-semibold"
               id="0"
             >
               Ravi Rastogi

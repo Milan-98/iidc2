@@ -6,7 +6,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import Head from "next/head";
 
-const poppins = Poppins({ subsets: ["latin"], weight: "400" });
+const poppins = Poppins({ weight: "400", subsets:["latin"] });
 
 export const metadata: Metadata = {
   title: "India International Dance Congress (IIDC) - Home",

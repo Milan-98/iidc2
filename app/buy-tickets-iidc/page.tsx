@@ -16,7 +16,7 @@ const page = () => {
       />
       {/* Tickets scanner and payment gateway section----------------------- --*/}
       {/* container of scanner and text */}
-      <section className="px-6 py-10 md:py-14 lg:grid lg:grid-flow-col lg:grid-cols-2 lg:px-10 lg:py-20">
+      <section className="px-6 py-10 md:py-14 lg:grid lg:grid-flow-col lg:grid-cols-2 lg:pl-10 lg:pr-24 lg:py-20">
         {/* container of scanner */}
         <section className="">
           <figure>
@@ -37,7 +37,7 @@ const page = () => {
           <h3 className="text-4xl font-semibold -tracking-tight text-[#1f1f1f] ">
             IIDC Tickets
           </h3>
-          <hr className="mb-3 mt-2 w-56 border-b-[1px] border-[#DF9627] sm:w-[14rem] md:mb-3  md:mt-3 lg:w-[16rem]  " />
+          <hr className="mb-3 mt-2 w-56 border-b-[1px] border-[#DF9627] sm:w-[14rem] md:mb-3  md:mt-3 lg:w-[16rem]  lg:text-[1.06rem]" />
           <p className="mt-2">
             Welcome to the IIDC Buy Tickets page, your gateway to an
             extraordinary celebration of Latin dance! Explore a variety of
