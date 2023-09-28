@@ -4,14 +4,72 @@ import { Poppins } from "next/font/google";
 import SocialHeader from "@/components/SocialHeader";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import Head from "next/head";
-
-const poppins = Poppins({ weight: "400", subsets:["latin"] });
+const poppins = Poppins({ weight: "400", subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  viewport: "width=device-width, initial-scale=1.0",
   title: "India International Dance Congress (IIDC) - Home",
+  keywords: [
+    "Latin dance",
+    "IIDC (India International Dance Congress)",
+    "Dance workshops",
+    "Dance performances",
+    "Dance community",
+  ],
   description:
-    "The India International Dance Congress (IIDC) is a celebrated annual gathering that pulsates with the vibrant rhythms of Latin dance.",
+    "Explore Latin dance at IIDC - India's Dance Congress. Join for workshops, performances, and a vibrant community. Perfect for all dancers!",
+  icons: [
+    { rel: "icon", url: "/favicon.ico" },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "32x32",
+      url: "/favicon-32x32.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "16x16",
+      url: "/favicon-16x16.png",
+    },
+    { rel: "apple-touch-icon", url: "/apple-touch-icon.png" },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "192x192",
+      url: "/android-chrome-192x192.png",
+    },
+    {
+      rel: "icon",
+      type: "image/png",
+      sizes: "512x512",
+      url: "/android-chrome-512x512.png",
+    },
+  ],
+  manifest: "/manifest.json",
+  twitter: {
+    card: "summary_large_image",
+    site: "@IIDC8",
+    creator: "@@IIDC8",
+    images: "/android-chrome-512x512.png",
+    description: "Join us at the India International Dance Congress!",
+    title: "India International Dance Congress",
+  },
+
+  openGraph: {
+    type: "website",
+    url: "https://www.iidc.co.in",
+    title: "India International Dance Congress",
+    description: "Join us at the India International Dance Congress!",
+    siteName: "My Website",
+    countryName: "india",
+    images: [
+      {
+        url: "/android-chrome-512x512.png",
+        alt: "IIDC Logo",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -21,76 +79,6 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <Head>
-        <meta charSet="UTF-8" />
-        {/* View Port  */}
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        {/* Primary favicon */}
-        <link rel="icon" href="/favicon.ico" />
-        {/* Additional favicon sizes */}
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/favicon-32x32.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/favicon-16x16.png"
-        />
-        {/* Apple touch icon */}
-        <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-        {/* Android chrome Links */}
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="192x192"
-          href="/android-chrome-192x192.png"
-        />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="512x512"
-          href="/android-chrome-512x512.png"
-        />
-        {/* Manifest file link */}
-        <link rel="manifest" href="/manifest.json" />
-        {/* Twitter Card Tags */}
-        <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:site" content="@IIDC8" />
-        <meta
-          name="twitter:title"
-          content="India International Dance Congress"
-        />
-        <meta
-          name="twitter:description"
-          content="Join us at the India International Dance Congress!"
-        />
-        <meta name="twitter:image" content="/android-chrome-512x512.png" />
-        {/* OpenGraph Tags */}
-        {/* Type can be 'website', 'article', etc. */}
-        <meta property="og:type" content="website" />{" "}
-        {/* URL of your website */}
-        <meta property="og:url" content="https://www.iidc.co.in" />{" "}
-        {/* Your website's title */}
-        <meta
-          property="og:title"
-          content="India International Dance Congress"
-        />{" "}
-        {/* Description of your website */}
-        <meta
-          property="og:description"
-          content="Join us at the India International Dance Congress!"
-        />{" "}
-        {/* URL to your OpenGraph image */}
-        <meta property="og:image" content="/android-chrome-512x512.png" />{" "}
-        {/* Alt text for your image */}
-        <meta property="og:image:alt" content="IIDC Logo" />{" "}
-        {/* Your site's name */}
-        <meta property="og:site_name" content="IIDC Co In" />{" "}
-      </Head>
       <body className={poppins.className}>
         <header className="relative">
           <SocialHeader />

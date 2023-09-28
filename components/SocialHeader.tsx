@@ -7,6 +7,7 @@ const SocialHeader = () => {
         {/* FaceBook Svg------------------------------------------------------- */}
 
         <a
+          title="FaceBook Link"
           href="https://www.facebook.com/IndianInternationalDanceCongress"
           className="duration-400 group   h-10 overflow-hidden transition-all hover:bg-[#5d82d1] lg:h-8"
         >
@@ -29,6 +30,7 @@ const SocialHeader = () => {
         </a>
         {/* Twitter Svg----------------------------------------------------------- */}
         <a
+          title="Twitter Link"
           href="https://twitter.com/IIDC8"
           className="duration-400 group h-10 overflow-hidden transition-all hover:bg-[#40bff5] lg:h-8 "
         >
@@ -51,6 +53,7 @@ const SocialHeader = () => {
         </a>
         {/* Instagram Svg----------------------------------------------------------- */}
         <a
+          title="Instagram Link"
           href="https://www.instagram.com/iidcofficial"
           className="duration-400 group h-10 overflow-hidden transition-all hover:bg-[#eb5e4c] lg:h-8 "
         >

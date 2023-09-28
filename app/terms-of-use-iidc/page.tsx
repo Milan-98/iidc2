@@ -1,4 +1,19 @@
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "IIDC Terms of Use - India International Dance Congress Website and Event Terms",
+  description:
+    "Review IIDC's Terms of Use: Comply with our website and event terms, covering intellectual property, content, registration, conduct, and more.",
+  keywords: [
+    "IIDC Terms of Use",
+    "Website Usage Terms",
+    "Event Participation Rules",
+    "User Behavior Guidelines",
+    "Intellectual Property Rights",
+  ],
+};
 
 const page = () => {
   return (
@@ -13,9 +28,9 @@ const page = () => {
       />
       {/* terms & use Main content------------------------------------------ */}
       <section className="px-6 pt-10 md:px-10 md:pt-14 lg:px-20 lg:pt-20">
-        <h3 className="text-2xl font-semibold -tracking-tighter  text-[#1f1f1f] md:text-3xl lg:pr-40 lg:text-5xl">
+        <h1 className="text-2xl font-semibold -tracking-tighter  text-[#1f1f1f] md:text-3xl lg:pr-40 lg:text-5xl">
           Terms of Use for India International Dance Congress
-        </h3>
+        </h1>
         <hr className="mb-3 mt-2 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem]  lg:mb-4  lg:mt-3 lg:w-[40rem]  " />
         <h5 className="text-sm text-[#484848] ">Effective Date: 19-09-2023</h5>
       </section>

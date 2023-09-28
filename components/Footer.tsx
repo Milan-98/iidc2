@@ -3,7 +3,7 @@ import Link from "next/link";
 const Footer = () => {
   return (
     <>
-      <footer className="bg-[#F8F9FA] lg:grid lg:grid-flow-col lg:grid-cols-5 lg:py-16 lg:px-14">
+      <footer className="bg-[#F8F9FA] lg:grid lg:grid-flow-col lg:grid-cols-5 lg:px-14 lg:py-16">
         <br className="lg:hidden" />
         <br className="lg:hidden" />
         <br className="lg:hidden" />
@@ -47,37 +47,22 @@ const Footer = () => {
               DISCOVER
             </h3>
             <ul className="mt-1 grid gap-1 md:mt-[.27rem]">
-              <Link
-                href={"/about-iidc"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                <li>About IIDC</li>
-              </Link>
-              <Link
-                href={"/about-iidc#johnAnthony"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                <li>About John Anthony</li>
-              </Link>
-              <Link
-                href={"/iidc-itinerary"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                <li>Event Itinerary</li>
-              </Link>
-              <Link
-                href={"/artist-lineup-iidc"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                <li>Artist Line-up</li>
-              </Link>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/about-iidc"}>About IIDC</Link>
+              </li>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/about-iidc#johnAnthony"}>About John Anthony</Link>
+              </li>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/iidc-itinerary"}>Event Itinerary</Link>
+              </li>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/artist-lineup-iidc"}> Artist Line-up</Link>
+              </li>
 
-              <Link
-                href={"/workshops"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                <li> Workshops</li>
-              </Link>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/workshops"}> Workshops</Link>
+              </li>
             </ul>
           </section>
           <br className="lg:hidden" />
@@ -87,27 +72,17 @@ const Footer = () => {
               LEGAL
             </h3>
             <ul className="mt-1 grid gap-1 md:mt-[.27rem]">
-              <Link
-                href={"/terms-of-use-iidc"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
+                <Link href={"/terms-of-use-iidc"}>Terms of Use</Link>
+              </li>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
                 {" "}
-                <li>Terms of Use</li>
-              </Link>
-              <Link
-                href={"/privacy-policy-iidc"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
+                <Link href={"/privacy-policy-iidc"}>Privacy Policy</Link>
+              </li>
+              <li className="w-fit duration-500 hover:text-[#DF9627]">
                 {" "}
-                <li>Privacy Policy</li>
-              </Link>
-              <Link
-                href={"/disclaimer-iidc"}
-                className="w-fit duration-500 hover:text-[#DF9627]"
-              >
-                {" "}
-                <li>Disclaimer</li>
-              </Link>
+                <Link href={"/disclaimer-iidc"}>Disclaimer</Link>
+              </li>
             </ul>
           </section>
         </section>

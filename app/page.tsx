@@ -1,22 +1,12 @@
 import Link from "next/link";
 import JohnEnthony from "@/components/JohnEnthony";
 import ArtistCarousel from "@/components/ArtistCarousel";
-import Head from "next/head";
 import { Poppins } from "next/font/google";
-const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
+const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 
 export default function Home() {
   return (
     <>
-      <Head>
-        {/* canonical */}
-        <link rel="canonical" href="https://iidc.co.in/" />
-        {/* Keywords */}
-        <meta
-          name="keywords"
-          content="Dance Congress India,IIDC Dance Festival,"
-        />
-      </Head>
       <main className="">
         {/* Home Page Hero Bg--------------------------------------------------- */}
         <section className="bg-[#00000048] bg-HomePageHero bg-cover bg-repeat-y bg-blend-multiply  md:h-[100dvh] lg:h-fit ">
@@ -25,7 +15,9 @@ export default function Home() {
               A JOHN ANTHONY&apos;S PRODUCTION
             </h3>
             <hr className="mx-auto w-24 lg:mx-0 lg:w-12" />
-            <h1 className={`mt-4 ${poppinsBold.className} px-1 text-center text-[2.5rem]  font-black leading-[2.8rem] -tracking-tight text-white lg:mt-3 lg:text-start  lg:text-7xl `}>
+            <h1
+              className={`mt-4 ${poppinsBold.className} px-1 text-center text-[2.5rem]  font-black leading-[2.8rem] -tracking-tight text-white lg:mt-3 lg:text-start  lg:text-7xl `}
+            >
               {" "}
               India <br /> International <br className="sm:hidden" /> Dance{" "}
               <br /> Congress (IIDC) <br />{" "}
@@ -118,7 +110,9 @@ export default function Home() {
         {/* Home page main content-------------------------------------------------------*/}
         {/* Book Your Ticket tooday section ---------- */}
         <section className="bg-black px-6 py-16 sm:px-8 md:px-12 lg:px-28">
-          <h3 className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] md:text-4xl ${poppinsBold.className}`}>
+          <h3
+            className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] md:text-4xl ${poppinsBold.className}`}
+          >
             Book your tickets today!
           </h3>
           <hr className="mb-3 mt-2 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem]  lg:mb-4  lg:mt-3 lg:w-[40rem]  " />
@@ -130,25 +124,26 @@ export default function Home() {
             enjoy early bird discount!
           </p>
 
-          <Link href={"/buy-tickets-iidc"}>
-            <li className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-7 ">
-              {" "}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
-                viewBox="0 0 24 24"
-                id="ticket"
-              >
-                <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
-              </svg>{" "}
-              <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
-                BUY TICKETS
-              </h5>{" "}
-            </li>
+          <Link
+            href={"/buy-tickets-iidc"}
+            className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-7 "
+          >
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
+              viewBox="0 0 24 24"
+              id="ticket"
+            >
+              <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
+            </svg>{" "}
+            <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
+              BUY TICKETS
+            </h5>{" "}
           </Link>
         </section>
         {/* Video Section ------------------------------------------------------- */}
-        <section className="bg-[#00000048] bg-HomePageVideoSectionBg bg-cover bg-fixed bg-repeat-y py-16 bg-blend-multiply lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-20 lg:px-20 lg:py-20">
+        <section className="bg-[#00000048] bg-HomePageVideoSectionBg  bg-cover bg-fixed bg-center bg-repeat-y py-16 bg-blend-multiply lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-20 lg:px-20 lg:py-20">
           <iframe
             title="vimeo-player"
             className="mx-auto h-[30rem] w-[17rem] sm:h-[40rem] sm:w-[24rem] lg:ml-10"
@@ -157,7 +152,9 @@ export default function Home() {
             allowFullScreen
           ></iframe>
           <section className="mt-10 px-6 sm:px-8 md:px-12 lg:col-span-2 lg:ml-10 lg:mt-0 lg:px-0 lg:pr-20">
-            <h3 className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] lg:text-4xl lg:font-bold ${poppinsBold.className}`}>
+            <h3
+              className={`text-3xl font-semibold -tracking-tighter text-[#DF9627] lg:text-4xl lg:font-bold ${poppinsBold.className}`}
+            >
               India International Dance <br className="hidden lg:block" />{" "}
               Congress -
               <br className="hidden md:block lg:hidden" /> 09th Edition
@@ -182,35 +179,10 @@ export default function Home() {
               exhilarating merengue as IIDC transports you into the heart of the
               global Latin dance scene.
             </p>
-            <Link href={"/buy-tickets-iidc"}>
-              <li className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-10 ">
-                {" "}
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
-                  viewBox="0 0 24 24"
-                  id="ticket"
-                >
-                  <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
-                </svg>{" "}
-                <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
-                  BUY TICKETS
-                </h5>{" "}
-              </li>
-            </Link>
-          </section>
-        </section>
-        {/* John Enthony section */}
-        <JohnEnthony />
-        {/* Carousel section*/}
-        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-32   lg:py-16 ">
-          <h3 className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}>
-            Artists Line-up
-          </h3>
-          <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />
-          <ArtistCarousel />
-          <Link href={"/buy-tickets-iidc"}>
-            <li className="group mx-auto  mt-10 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] ">
+            <Link
+              href={"/buy-tickets-iidc"}
+              className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-10 "
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -223,7 +195,36 @@ export default function Home() {
               <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
                 BUY TICKETS
               </h5>{" "}
-            </li>
+            </Link>
+          </section>
+        </section>
+        {/* John Enthony section */}
+        <JohnEnthony />
+        {/* Carousel section*/}
+        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-center bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-32   lg:py-16 ">
+          <h3
+            className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}
+          >
+            Artists Line-up
+          </h3>
+          <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />
+          <ArtistCarousel />
+          <Link
+            href={"/buy-tickets-iidc"}
+            className="group mx-auto  mt-10 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] "
+          >
+            {" "}
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
+              viewBox="0 0 24 24"
+              id="ticket"
+            >
+              <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
+            </svg>{" "}
+            <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
+              BUY TICKETS
+            </h5>{" "}
           </Link>
         </section>
       </main>
