@@ -1,4 +1,18 @@
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IIDC Event Itinerary - India International Dance Congress Schedule",
+  description:
+    "Explore the exciting schedule of IIDC - India International Dance Congress. From workshops to performances, our itinerary promises a dance experience like no other.",
+  keywords: [
+    "IIDC Event Itinerary",
+    "Dance Congress Schedule",
+    "Workshop Schedule",
+    "Dance Performances",
+    "Dance Party Schedule",
+  ],
+};
 
 const page = () => {
   return (
@@ -15,9 +29,9 @@ const page = () => {
       />
       {/* We will update you shortly ---------------------------------------------- */}
       <section className="">
-        <h3 className="py-14 text-center text-3xl font-black text-[#1F1F1F] lg:text-4xl">
+        <h1 className="py-14 text-center text-3xl font-black text-[#1F1F1F] lg:text-4xl">
           We will update this itinerary shortly!
-        </h3>
+        </h1>
       </section>
     </main>
   );

@@ -76,7 +76,7 @@ const Header = () => {
 
           {/* Menu Button For Mobile,sm and Md Screens --------------------------------*/}
           {MobileNavStatus || ScreenPositioning > 9 ? (
-            <div className="ml-10 md:ml-36 lg:hidden">
+            <div className="ml-10 md:ml-36 lg:hidden" title="hamburger icon">
               <Hamburger
                 toggled={MobileNavStatus}
                 toggle={HandleMobileNavBar}
@@ -86,7 +86,7 @@ const Header = () => {
               />
             </div>
           ) : (
-            <div className="ml-10 md:ml-36  lg:hidden">
+            <div className="ml-10 md:ml-36  lg:hidden" title="hamburger icon">
               <Hamburger
                 toggled={MobileNavStatus}
                 toggle={HandleMobileNavBar}
@@ -104,59 +104,77 @@ const Header = () => {
             ScreenPositioning > 9 ? "text-black" : "text-white"
           } `}
         >
-          <Link
-            href={"/"}
-            className={`${
-              ScreenPositioning > 9
-                ? "hover:text-[#DF9627]"
-                : " hover:text-[#cecdcd]"
-            } duration-500 `}
-          >
-            <li>HOME</li>
-          </Link>
-          <Link
-            href={"/about-iidc"}
-            className={`${
-              ScreenPositioning > 9
-                ? "hover:text-[#DF9627]"
-                : " hover:text-[#cecdcd]"
-            } duration-500 `}
-          >
-            <li>ABOUT IIDC</li>
-          </Link>
-          <Link
-            href={"/artist-lineup-iidc"}
-            className={`${
-              ScreenPositioning > 9
-                ? "hover:text-[#DF9627]"
-                : " hover:text-[#cecdcd]"
-            } duration-500 `}
-          >
-            <li>ARTISTS LINE-UP</li>
-          </Link>
-          <Link
-            href={"/about-venue"}
-            className={`${
-              ScreenPositioning > 9
-                ? "hover:text-[#DF9627]"
-                : " hover:text-[#cecdcd]"
-            } duration-500 `}
-          >
-            <li>ABOUT VENUE</li>
-          </Link>
-          <Link
-            href={"/iidc-itinerary"}
-            className={`${
-              ScreenPositioning > 9
-                ? "hover:text-[#DF9627]"
-                : " hover:text-[#cecdcd]"
-            } duration-500 `}
-          >
+          <li>
             {" "}
-            <li>EVENT ITINERARY</li>
-          </Link>
-          <Link href={"/buy-tickets-iidc"}>
-            <li className="group flex items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] px-5 py-3 transition-all duration-700  hover:bg-[#DF9627] ">
+            <Link
+              href={"/"}
+              className={`${
+                ScreenPositioning > 9
+                  ? "hover:text-[#DF9627]"
+                  : " hover:text-[#cecdcd]"
+              } duration-500 `}
+            >
+              HOME
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link
+              href={"/about-iidc"}
+              className={`${
+                ScreenPositioning > 9
+                  ? "hover:text-[#DF9627]"
+                  : " hover:text-[#cecdcd]"
+              } duration-500 `}
+            >
+              ABOUT IIDC
+            </Link>{" "}
+          </li>
+          <li>
+            {" "}
+            <Link
+              href={"/artist-lineup-iidc"}
+              className={`${
+                ScreenPositioning > 9
+                  ? "hover:text-[#DF9627]"
+                  : " hover:text-[#cecdcd]"
+              } duration-500 `}
+            >
+              ARTISTS LINE-UP
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link
+              href={"/about-venue"}
+              className={`${
+                ScreenPositioning > 9
+                  ? "hover:text-[#DF9627]"
+                  : " hover:text-[#cecdcd]"
+              } duration-500 `}
+            >
+              ABOUT VENUE
+            </Link>
+          </li>
+          <li>
+            {" "}
+            <Link
+              href={"/iidc-itinerary"}
+              className={`${
+                ScreenPositioning > 9
+                  ? "hover:text-[#DF9627]"
+                  : " hover:text-[#cecdcd]"
+              } duration-500 `}
+            >
+              {" "}
+              EVENT ITINERARY
+            </Link>
+          </li>
+          <li>
+            <Link
+              href={"/buy-tickets-iidc"}
+              className="group flex items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] px-5 py-3 transition-all duration-700  hover:bg-[#DF9627] "
+            >
               {" "}
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -169,8 +187,8 @@ const Header = () => {
               <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
                 BUY TICKETS
               </h5>{" "}
-            </li>
-          </Link>
+            </Link>
+          </li>
         </ul>
         {/* mobile Dropdown -----------------------------------------------------*/}
         <nav className={` lg:hidden ${MobileNavStatus ? "block" : "hidden"}  `}>

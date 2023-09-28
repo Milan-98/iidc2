@@ -1,4 +1,18 @@
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "IIDC Tickets - Buy Passes for India International Dance Congress",
+  description:
+    "Secure your spot at IIDC, the ultimate celebration of Latin dance! Explore ticket options tailored to your experience, whether you're a dancer or enthusiast.",
+  keywords: [
+    "IIDC Tickets",
+    "Buy IIDC Passes",
+    "Dance Congress Tickets",
+    "Latin Dance Enthusiast Passes",
+    "Dance Event Tickets",
+  ],
+};
 
 const page = () => {
   return (
@@ -16,7 +30,7 @@ const page = () => {
       />
       {/* Tickets scanner and payment gateway section----------------------- --*/}
       {/* container of scanner and text */}
-      <section className="px-6 py-10 md:py-14 lg:grid lg:grid-flow-col lg:grid-cols-2 lg:pl-10 lg:pr-24 lg:py-20">
+      <section className="px-6 py-10 md:py-14 lg:grid lg:grid-flow-col lg:grid-cols-2 lg:py-20 lg:pl-10 lg:pr-24">
         {/* container of scanner */}
         <section className="">
           <figure>
@@ -34,9 +48,9 @@ const page = () => {
         </section>
 
         <section className=" mt-14 md:mt-16 lg:mt-0">
-          <h3 className="text-4xl font-semibold -tracking-tight text-[#1f1f1f] ">
+          <h1 className="text-4xl font-semibold -tracking-tight text-[#1f1f1f] ">
             IIDC Tickets
-          </h3>
+          </h1>
           <hr className="mb-3 mt-2 w-56 border-b-[1px] border-[#DF9627] sm:w-[14rem] md:mb-3  md:mt-3 lg:w-[16rem]  lg:text-[1.06rem]" />
           <p className="mt-2">
             Welcome to the IIDC Buy Tickets page, your gateway to an

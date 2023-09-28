@@ -1,6 +1,21 @@
 import Image from "next/image";
 import VenueLightBox from "@/components/VenueLightBox";
 import HeroOfAllPages from "@/components/HeroOfAllPages";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title:
+    "Royal Orchids - The Premier Venue for IIDC - India International Dance Congress",
+  description:
+    "Discover Royal Orchids - IIDC's premier venue, where dance meets luxury.",
+  keywords: [
+    "Royal Orchids Venue",
+    "IIDC Venue",
+    "Dance Congress Venue",
+    "Dance Event Venue",
+    "Luxury Event Space",
+  ],
+};
 
 const page = () => {
   return (
@@ -18,10 +33,10 @@ const page = () => {
       {/* About Royal Orchid section ----------------------------------------------*/}
       <section className="px-6 pt-10 text-[#484848] lg:grid lg:grid-cols-2  lg:px-24 lg:pb-10 lg:pt-20  ">
         <section>
-          <h3 className="text-4xl lg:text-5xl  font-semibold -tracking-tight text-[#1f1f1f]">
+          <h1 className="text-4xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl">
             Hotel Royal Orchid
-          </h3>
-          <hr className="mb-3 mt-2 w-36 border-b-[1px] border-[#DF9627] sm:w-[21.7rem] lg:w-[24rem] lg:mb-4 lg:mt-3  " />
+          </h1>
+          <hr className="mb-3 mt-2 w-36 border-b-[1px] border-[#DF9627] sm:w-[21.7rem] lg:mb-4 lg:mt-3 lg:w-[24rem]  " />
           <p className="mt-2 lg:text-[1.06rem]">
             Royal Orchid & Regenta Hotels is one of India&apos;s fastest-growing
             hospitality brands, managing a portfolio of over 90+ properties
