@@ -30,57 +30,60 @@ const page = () => {
           vibrant celebration of dance, culture, and community."
         />
         {/* IIDC MAin COntent -------------------------------------------------- */}
-        <section className="px-6 py-10 md:px-10 lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-24 lg:py-20">
-          <section className=" col-span-2">
-            <h1
-              className={` text-3xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl `}
-            >
-              India International Dance{" "}
-              <hr className="my-1 hidden opacity-0 lg:block" /> Congress (IIDC)
-            </h1>
-            <hr className="mb-4 mt-3 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem] lg:mb-4  lg:mt-3 lg:w-[24rem]  " />
-            <p className="mt-5  lg:text-[1.07rem]">
-              The India International Dance Congress (IIDC) is a dazzling
-              celebration of Latin dance and culture that has captured the
-              hearts of dancers and enthusiasts across India and around the
-              globe. As an annual extravaganza, IIDC transcends the boundaries
-              of ordinary dance events, offering a multifaceted experience that
-              combines the joy of movement with the magic of Latin rhythms.
-              IIDC&apos;s mission is simple yet profound: to unite people
-              through dance, to inspire creativity, and to create a sense of
-              belonging within the global dance community.
-            </p>
-            <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
-              At the helm of IIDC is the visionary founder, John Anthony, a
-              luminary in the world of Latin dance with over 15 years of
-              experience in various Latin dance forms. His passion for dance,
-              coupled with a relentless dedication to elevating Latin dance in
-              India, has made IIDC a beacon of excellence in the dance world.
-              Under his guidance, IIDC has flourished into a platform that not
-              only educates and entertains but also forges deep connections and
-              lasting friendships.
-            </p>
-            <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
-              IIDC&apos;s allure lies in its diverse offerings, from world-class
-              workshops conducted by international dance masters to electrifying
-              performances that captivate and inspire. It&apos;s a place where
-              attendees can unleash their creativity, refine their dance skills,
-              and immerse themselves in the vibrant culture of Latin dance.
-              Moreover, IIDC is a testament to the unifying power of dance,
-              where people from all walks of life come together, breaking down
-              barriers, and dancing to the same irresistible beat. IIDC is not
-              just an event; it&apos;s an unforgettable journey into the heart
-              of Latin dance, where every step is a celebration of life, rhythm,
-              and community.
-            </p>
+        <section className="px-6 py-10 md:px-10 lg:py-20 ">
+          <section className="lg:mx-auto lg:grid lg:w-[70rem] lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-0 lg:py-0">
+            <section className=" col-span-2">
+              <h1
+                className={` text-3xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl `}
+              >
+                India International Dance{" "}
+                <hr className="my-1 hidden opacity-0 lg:block" /> Congress
+                (IIDC)
+              </h1>
+              <hr className="mb-4 mt-3 w-[12.7rem] border-b-[1px] border-[#DF9627] sm:w-[34.6rem] lg:mb-4  lg:mt-3 lg:w-[24rem]  " />
+              <p className="mt-5  lg:text-[1.07rem]">
+                The India International Dance Congress (IIDC) is a dazzling
+                celebration of Latin dance and culture that has captured the
+                hearts of dancers and enthusiasts across India and around the
+                globe. As an annual extravaganza, IIDC transcends the boundaries
+                of ordinary dance events, offering a multifaceted experience
+                that combines the joy of movement with the magic of Latin
+                rhythms. IIDC&apos;s mission is simple yet profound: to unite
+                people through dance, to inspire creativity, and to create a
+                sense of belonging within the global dance community.
+              </p>
+              <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
+                At the helm of IIDC is the visionary founder, John Anthony, a
+                luminary in the world of Latin dance with over 15 years of
+                experience in various Latin dance forms. His passion for dance,
+                coupled with a relentless dedication to elevating Latin dance in
+                India, has made IIDC a beacon of excellence in the dance world.
+                Under his guidance, IIDC has flourished into a platform that not
+                only educates and entertains but also forges deep connections
+                and lasting friendships.
+              </p>
+              <p className="mt-3 lg:mt-4 lg:text-[1.07rem]">
+                IIDC&apos;s allure lies in its diverse offerings, from
+                world-class workshops conducted by international dance masters
+                to electrifying performances that captivate and inspire.
+                It&apos;s a place where attendees can unleash their creativity,
+                refine their dance skills, and immerse themselves in the vibrant
+                culture of Latin dance. Moreover, IIDC is a testament to the
+                unifying power of dance, where people from all walks of life
+                come together, breaking down barriers, and dancing to the same
+                irresistible beat. IIDC is not just an event; it&apos;s an
+                unforgettable journey into the heart of Latin dance, where every
+                step is a celebration of life, rhythm, and community.
+              </p>
+            </section>
+            <Image
+              src="/IIDC_Black_Logo.png"
+              alt="IIDC Logo"
+              width={400}
+              height={400}
+              className="mx-auto mt-6 w-48 sm:w-56   lg:mx-0 lg:mt-0 lg:w-96"
+            />
           </section>
-          <Image
-            src="/IIDC_Black_Logo.png"
-            alt="IIDC Logo"
-            width={400}
-            height={400}
-            className="mx-auto mt-6 w-48 sm:w-56   lg:mx-0 lg:mt-0 lg:w-96"
-          />
         </section>
         {/* Ethos Section ---------------------------------------------------- */}
         <section
@@ -92,7 +95,7 @@ const page = () => {
             Our Ethos
           </h3>
           <hr className="mx-auto mb-3 mt-2 w-32 border-b-[1px] border-[#DF9627] sm:w-[21.7rem]  lg:mb-4 lg:mt-3  " />
-          <p className=" text-center">
+          <p className=" text-center lg:mx-auto lg:w-[70rem]">
             IIDC&apos;s legacy is founded upon its commitment to excellence.
             Year after year, it has consistently brought together some of the
             world&apos;s most talented and respected Latin dance artists and

@@ -7,16 +7,18 @@ const JohnEnthony = () => {
   return (
     <section
       id="johnAnthony"
-      className="bg-black px-6 py-14 sm:px-10 lg:grid lg:grid-cols-3 lg:gap-14 lg:px-20 lg:py-20"
+      className="bg-black px-6 py-14 sm:px-10 lg:px-0  lg:py-20"
     >
+      <section className="lg:grid lg:grid-flow-col lg:gap-5  lg:w-[70rem] lg:mx-auto ">
+
       <Image
         src="/john-anthony.jpg"
         alt="john Anthony picture"
         width={450}
         height={450}
-        className="mx-auto w-72 sm:mx-0 sm:w-96  md:w-[29rem]"
+        className="mx-auto w-72 sm:mx-0 sm:w-96  md:w-[28rem]"
       />
-      <section className="col-span-2 mt-7 text-[#e6e6e6] lg:mt-0">
+      <section className=" mt-7 text-[#e6e6e6] lg:mt-0">
         <h3 className={`text-3xl ${poppinsBold.className} font-semibold  -tracking-tight text-[#DF9627] lg:text-4xl`}>
           John Anthony
         </h3>
@@ -50,6 +52,8 @@ const JohnEnthony = () => {
           passion and talent of dancers across the nation.
         </p>
       </section>
+      </section>
+      
     </section>
   );
 };
