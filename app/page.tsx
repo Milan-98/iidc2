@@ -148,10 +148,10 @@ export default function Home() {
         </section>
         {/* Video Section ------------------------------------------------------- */}
         <section className="bg-[#00000048] bg-HomePageVideoSectionBg  bg-cover bg-fixed bg-center bg-repeat-y py-16 bg-blend-multiply  ">
-          <section className="lg:grid lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-0 lg:py-20 lg:w-[70rem] lg:mx-auto">
+          <section className="lg:mx-auto lg:grid lg:w-[70rem] lg:grid-flow-col lg:grid-cols-3 lg:gap-10 lg:px-0 lg:py-20">
             <iframe
               title="vimeo-player"
-              className="mx-auto lg:mx-0 h-[30rem] w-[17rem] sm:h-[40rem] sm:w-[24rem] lg:ml-0"
+              className="mx-auto h-[30rem] w-[17rem] sm:h-[40rem] sm:w-[24rem] lg:mx-0 lg:ml-0"
               src="https://player.vimeo.com/video/865870988?h=d262b75099"
               frameBorder="0"
               allowFullScreen
@@ -207,31 +207,33 @@ export default function Home() {
         {/* John Enthony section */}
         <JohnEnthony />
         {/* Carousel section*/}
-        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-center bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-32   lg:py-16 ">
-          <h3
-            className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}
-          >
-            Artists Line-up
-          </h3>
-          <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />
-          <ArtistCarousel />
-          <Link
-            href={"/buy-tickets-iidc"}
-            className="group mx-auto  mt-10 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] "
-          >
-            {" "}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
-              viewBox="0 0 24 24"
-              id="ticket"
+        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-center bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-0   lg:py-16 ">
+          <section className="lg:mx-auto lg:w-[70rem]">
+            <h3
+              className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}
             >
-              <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
-            </svg>{" "}
-            <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
-              BUY TICKETS
-            </h5>{" "}
-          </Link>
+              Artists Line-up
+            </h3>
+            <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />
+            <ArtistCarousel />
+            <Link
+              href={"/buy-tickets-iidc"}
+              className="group mx-auto  mt-10 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] "
+            >
+              {" "}
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                className="w-6 fill-[#DF9627] transition-all duration-700  group-hover:fill-white"
+                viewBox="0 0 24 24"
+                id="ticket"
+              >
+                <path d="M9,10a1,1,0,0,0-1,1v2a1,1,0,0,0,2,0V11A1,1,0,0,0,9,10Zm12,1a1,1,0,0,0,1-1V6a1,1,0,0,0-1-1H3A1,1,0,0,0,2,6v4a1,1,0,0,0,1,1,1,1,0,0,1,0,2,1,1,0,0,0-1,1v4a1,1,0,0,0,1,1H21a1,1,0,0,0,1-1V14a1,1,0,0,0-1-1,1,1,0,0,1,0-2ZM20,9.18a3,3,0,0,0,0,5.64V17H10a1,1,0,0,0-2,0H4V14.82A3,3,0,0,0,4,9.18V7H8a1,1,0,0,0,2,0H20Z"></path>
+              </svg>{" "}
+              <h5 className="text-base text-[#DF9627] transition-all  duration-700 group-hover:text-white">
+                BUY TICKETS
+              </h5>{" "}
+            </Link>
+          </section>
         </section>
       </main>
     </>
