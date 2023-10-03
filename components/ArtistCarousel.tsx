@@ -10,11 +10,11 @@ import "swiper/css/scrollbar";
 const ArtistCarousel = () => {
   return (
     <>
-      <div className="mx-2 select-none sm:mx-40 md:hidden">
+      <div className="mx-2 select-none sm:mx-40  md:hidden ">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
+          spaceBetween={10}
           slidesPerView={1}
           autoplay={{ delay: 1000 }}
           zoom={true}
@@ -80,7 +80,7 @@ const ArtistCarousel = () => {
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={50}
+          spaceBetween={10}
           slidesPerView={3}
           autoplay={{ delay: 1000 }}
           zoom={true}
@@ -142,7 +142,7 @@ const ArtistCarousel = () => {
         </Swiper>
       </div>
       {/* Lg section -------------------------------------------------------------------------*/}
-      <div className="hidden select-none  lg:block">
+      <div className="hidden select-none  lg:block lg:mx-auto lg:w-[70rem]">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
