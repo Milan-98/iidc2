@@ -2,17 +2,19 @@
 import Image from "next/image";
 import { useState } from "react";
 import { Poppins } from "next/font/google";
-const poppinsBold = Poppins({ weight: "700", subsets:["latin"] });
+const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 
 const InternationalArtistLineupLightbox = () => {
   const [ElementId, setElementId] = useState("0");
   return (
     <>
-      <section className=" px-4   pt-14 md:px-6 lg:px-14  lg:pt-16">
-        <h3 className={`text-4xl ${poppinsBold.className} font-black -tracking-tighter text-[#DF9627] lg:px-10  lg:text-[2.5rem] `}>
+      <section className=" px-4   pt-14 md:px-6 lg:mx-auto  lg:w-[70rem] lg:px-0 lg:pt-16">
+        <h3
+          className={`text-4xl ${poppinsBold.className} font-black -tracking-tighter text-[#DF9627] lg:px-0  lg:text-[2.5rem] `}
+        >
           International Artist
         </h3>
-        <hr className="mb-4 mt-2 border-b-[1px]  border-[#DF9627] lg:mx-10 lg:mb-7 lg:mt-3 " />
+        <hr className="mb-4 mt-2 border-b-[1px]  border-[#DF9627] lg:mx-0 lg:mb-7 lg:mt-3 " />
         {/* ---------------international artist section------------------------ */}
         <section
           onClick={(e) =>
@@ -20,20 +22,20 @@ const InternationalArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3 gap-3 text-[#4b4b4b] lg:gap-y-5  "
+          className="grid grid-cols-3 gap-3 text-[#4b4b4b] lg:gap-10 "
           id="0"
         >
           <section className="grid gap-1 md:gap-2" id="0">
             <Image
               src="/InterArtist1.jpg"
-              className=" mx-auto duration-500 hover:opacity-60 lg:w-80"
+              className="mx-auto  duration-500 hover:opacity-60 "
               width={500}
               height={500}
               alt="Royal Orchid Photo 1"
               id="1"
             />
             <h5
-              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
+              className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
               id="0"
             >
               Antoni & Belen
@@ -42,7 +44,7 @@ const InternationalArtistLineupLightbox = () => {
           <section className="grid gap-1 md:gap-2" id="0">
             <Image
               src="/InterArtist2.jpg"
-              className="mx-auto duration-500 hover:opacity-60 lg:w-80"
+              className="mx-auto duration-500 hover:opacity-60 "
               width={500}
               height={500}
               alt="Royal Orchid Photo 2"
@@ -50,7 +52,7 @@ const InternationalArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
+              className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
             >
               David E Ines
             </h5>
@@ -58,7 +60,7 @@ const InternationalArtistLineupLightbox = () => {
           <section id="0" className="grid gap-1 md:gap-2">
             <Image
               src="/InterArtist3.jpg"
-              className="mx-auto duration-500 hover:opacity-60 lg:w-80"
+              className="mx-auto duration-500 hover:opacity-60 "
               width={500}
               height={500}
               alt="Royal Orchid Photo 2"
@@ -66,7 +68,7 @@ const InternationalArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center lg:text-xl text-sm md:text-base md:font-semibold"
+              className="text-center text-sm md:text-base md:font-semibold lg:text-xl"
             >
               Irine Likokeli
             </h5>
@@ -74,7 +76,7 @@ const InternationalArtistLineupLightbox = () => {
           <section id="0" className="grid gap-1 md:gap-2">
             <Image
               src="/InterArtist4.jpg"
-              className="mx-auto duration-500 hover:opacity-60 lg:w-80"
+              className="mx-auto duration-500 hover:opacity-60 "
               width={500}
               height={500}
               alt="Royal Orchid Photo 2"
@@ -82,7 +84,7 @@ const InternationalArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center lg:text-xl text-sm md:text-base md:font-semibold"
+              className="text-center text-sm md:text-base md:font-semibold lg:text-xl"
             >
               Julio Rojas & Wualexa Gonzalez
             </h5>
@@ -90,7 +92,7 @@ const InternationalArtistLineupLightbox = () => {
           <section id="0" className="grid gap-1 md:gap-2">
             <Image
               src="/InterArtist5.jpg"
-              className="mx-auto duration-500 hover:opacity-60 lg:w-80"
+              className="mx-auto duration-500 hover:opacity-60 "
               width={500}
               height={500}
               alt="Royal Orchid Photo 2"
@@ -98,7 +100,7 @@ const InternationalArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center lg:text-xl  text-sm md:text-base md:font-semibold"
+              className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
             >
               Nuno and Nagyla
             </h5>
