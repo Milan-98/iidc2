@@ -61,7 +61,7 @@ export const metadata: Metadata = {
     url: "https://www.iidc.co.in",
     title: "India International Dance Congress",
     description: "Join us at the India International Dance Congress!",
-    siteName: "My Website",
+    siteName: "iidc.co.in",
     countryName: "india",
     images: [
       {

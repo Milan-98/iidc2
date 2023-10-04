@@ -14,7 +14,7 @@ const Footer = () => {
               INDIA INTERNATIONAL DANCE CONGRESS (IIDC)
             </h3>
 
-            <p className="mt-3 text-[#777777] md:text-[1.1rem] ">
+            <p className="mt-3 text-[#545353] md:text-[1.1rem] ">
               IIDC stands as a testament to the power of dance to unite,
               inspire, and transform. Join us for an unforgettable journey into
               the world of Latin dance, where rhythm and passion come alive.

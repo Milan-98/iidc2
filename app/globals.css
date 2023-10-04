@@ -100,3 +100,17 @@ article:after{
     transform: translate(-22px,5px) skew(21deg); 
   }
 }
+/* home textx animatoion */
+.animation {
+  display: block;
+  animation: reveal 1200ms cubic-bezier(0.77, 0, 0.175, 1) 0s;
+}
+
+@keyframes reveal {
+  0% {
+    transform: translate(0,100%);
+  }
+  100% {
+    transform: translate(0,0);
+  }
+}
