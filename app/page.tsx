@@ -2,6 +2,8 @@ import Link from "next/link";
 import JohnEnthony from "@/components/JohnEnthony";
 import ArtistCarousel from "@/components/ArtistCarousel";
 import { Poppins } from "next/font/google";
+import HomeHeroText from "@/components/HomeHeroText";
+import Image from "next/image";
 const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 
 export default function Home() {
@@ -9,38 +11,10 @@ export default function Home() {
     <>
       <main className="">
         {/* Home Page Hero Bg--------------------------------------------------- */}
-        <section className="bg-[#00000048] bg-HomePageHero bg-cover bg-repeat-y bg-blend-multiply  md:h-[100dvh] lg:h-fit ">
-          <section className="pt-28 md:pt-52 lg:mx-auto  lg:w-[70rem] lg:pt-36">
-            <h3 className="mb-1  text-center text-[.79rem] -tracking-tighter  text-white lg:mb-2 lg:text-start lg:text-xs lg:font-semibold ">
-              A JOHN ANTHONY&apos;S PRODUCTION
-            </h3>
-            <hr className="mx-auto w-24 lg:mx-0 lg:w-8 lg:border-b-2" />
-            <h1
-              className={`mt-4 ${poppinsBold.className} px-1 text-center text-[2.5rem]  font-black leading-[2.8rem] -tracking-tight text-white lg:mt-3 lg:text-start  lg:text-[5rem] lg:leading-[5.2rem] `}
-            >
-              {" "}
-              India <br className="lg:hidden" /> International{" "}
-              <br className="sm:hidden lg:block" /> Dance{" "}
-              <br className="lg:hidden" /> Congress (IIDC) <br />{" "}
-              <div className="mt-2 inline-block text-[#DF9627]"> IS BACK!</div>
-            </h1>
-            <Link
-              href={"/"}
-              className="group mx-auto mt-4 flex w-40 items-center justify-center rounded-full bg-black py-3 font-semibold -tracking-tight   text-white duration-700  hover:bg-[#DF9627] lg:mx-0 lg:mt-6   lg:w-44 lg:py-[.80rem]"
-            >
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                className="w-0 translate-x-[40%] rotate-45  fill-white transition-all duration-500  group-hover:mr-1 group-hover:w-fit group-hover:-translate-x-0 "
-                width="24"
-                height="24"
-              >
-                <path d="M7 7h8.586L5.293 17.293l1.414 1.414L17 8.414V17h2V5H7v2z" />
-              </svg>{" "}
-              <h6> LEARN MORE</h6>
-            </Link>
-          </section>
+        <section className="bg-[#00000048] bg-HomePageHero bg-cover bg-repeat-y bg-blend-multiply  md:h-[100dvh] lg:h-fit 2xl:h-[100dvh]">
+          <HomeHeroText />
           {/* dates location and ticktes in hero section------------------------ */}
-          <section className="mt-10 grid gap-10 fill-white pb-14 text-[#DF9627] lg:mx-auto lg:mt-20 lg:w-[70rem] lg:grid-flow-col lg:gap-0">
+          <section className="mt-10 grid gap-10 fill-white pb-14 text-[#DF9627] lg:mx-auto lg:mt-28 lg:w-[70rem] lg:grid-flow-col lg:gap-0 lg:pb-28">
             {/* 1 */}
             <section className="">
               <h3 className=" flex items-center justify-center gap-2 text-2xl font-semibold lg:justify-normal lg:-tracking-tighter">
@@ -109,6 +83,7 @@ export default function Home() {
             </section>
           </section>
         </section>
+
         {/* Home page main content-------------------------------------------------------*/}
         {/* Book Your Ticket tooday section ---------- */}
         <section className="bg-black px-6 py-16 sm:px-8 md:px-12 ">

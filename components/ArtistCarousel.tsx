@@ -14,7 +14,7 @@ const ArtistCarousel = () => {
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={10}
+          spaceBetween={1}
           slidesPerView={1}
           autoplay={{ delay: 1000 }}
           zoom={true}
@@ -80,7 +80,7 @@ const ArtistCarousel = () => {
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
-          spaceBetween={10}
+          spaceBetween={1}
           slidesPerView={3}
           autoplay={{ delay: 1000 }}
           zoom={true}
