@@ -27,7 +27,7 @@ const page = () => {
           do not agree to these terms, please refrain from using our website."
       />
       {/* terms & use Main content------------------------------------------ */}
-      <section className="px-6 pt-10 md:px-10 md:pt-14 lg:px-20 lg:pt-20">
+      <section className="px-6 pt-10 md:px-10 md:pt-14 lg:mx-auto lg:w-[70rem] lg:px-0 lg:pt-20 ">
         <h1 className="text-2xl font-semibold -tracking-tighter  text-[#1f1f1f] md:text-3xl lg:pr-40 lg:text-5xl">
           Terms of Use for India International Dance Congress
         </h1>
@@ -35,7 +35,7 @@ const page = () => {
         <h5 className="text-sm text-[#484848] ">Effective Date: 19-09-2023</h5>
       </section>
       {/* Terms and condition condition li and uls section --------------------------- */}
-      <section className="px-6 pb-10 pt-7 md:px-10 md:pb-14 lg:grid lg:gap-10 lg:pb-20 lg:pl-20 lg:pr-52  lg:pt-10 ">
+      <section className="px-6 pb-10 pt-7 md:px-10 md:pb-14 lg:mx-auto lg:grid lg:w-[70rem] lg:gap-10 lg:pb-24  lg:pl-0 lg:pr-0 lg:pt-12">
         {/* 1 */}
         <section>
           <h3 className="mb-1 text-lg font-semibold -tracking-tight text-[#777777]">
