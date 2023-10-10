@@ -16,15 +16,7 @@ const HeroOfAllPages: React.FC<HeroOfAllPagesProps> = ({
         >
           {heading}
         </h3>
-        <p className="mt-2 text-center md:mt-3 lg:text-lg  ">
-          {content.split("\n").map((line, index) => (
-            <span key={index}>
-              {line.trim()}{" "}
-              {/* Add .trim() to remove leading/trailing spaces */}
-              {index < content.split("\n").length - 1 && <br />}
-            </span>
-          ))}
-        </p>
+        <p className="mt-2 text-center md:mt-3 lg:text-lg">{content}</p>
       </section>
     </section>
   );
