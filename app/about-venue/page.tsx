@@ -1,5 +1,5 @@
 import Image from "next/image";
-import VenueLightBox from "@/components/VenueLightBox";
+import VenueLightBox from "@/components/about-venue_page/VenueLightBox";
 import HeroOfAllPages from "@/components/HeroOfAllPages";
 import { Metadata } from "next";
 

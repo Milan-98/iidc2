@@ -1,8 +1,8 @@
 import Link from "next/link";
 import JohnEnthony from "@/components/JohnEnthony";
-import ArtistCarousel from "@/components/ArtistCarousel";
+import ArtistCarousel from "@/components/home_page/ArtistCarousel";
 import { Poppins } from "next/font/google";
-import HomeHeroText from "@/components/HomeHeroText";
+import HomeHeroText from "@/components/home_page/HomeHeroText";
 import Image from "next/image";
 const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 
@@ -182,7 +182,7 @@ export default function Home() {
         {/* John Enthony section */}
         <JohnEnthony />
         {/* Carousel section*/}
-        <section className="bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-center bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-0   lg:py-16 ">
+        <section className="bg-[#00000048] bg-LatinDanceBg bg-cover bg-fixed bg-center bg-repeat-y px-6 py-10 bg-blend-multiply sm:px-10 lg:px-0   lg:py-16 ">
           <section className="lg:mx-auto lg:w-[70rem]">
             <h3
               className={`${poppinsBold.className} text-center text-4xl font-semibold -tracking-tight text-[#DF9627] md:text-start`}
