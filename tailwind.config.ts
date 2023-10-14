@@ -9,10 +9,10 @@ const config: Config = {
   theme: {
     extend: {
       backgroundImage: {
-        HeroOfItinerary: "url('../public/itineraryHero.jpg')",
-        EthosBg: "url('../public/Ethos-bg.jpg')",
-        HomePageHero: "url('../public/homebg.jpg')",
-        HomePageVideoSectionBg: "url('../public/homeVideoBg.jpg')",
+        HeroOfAllPages: "url('../public/Multi_pages/allPagesHero.jpg')",
+        LatinDanceBg: "url('../public/Multi_pages/latinDanceBg.jpg')",
+        HomePageHero: "url('../public/Home_page/homebg.jpg')",
+        HomePageVideoSectionBg: "url('../public/Home_page/homeVideoBg.jpg')",
       },
     },
   },

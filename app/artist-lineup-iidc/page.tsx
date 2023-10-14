@@ -1,7 +1,11 @@
-import DjArtistLineupLightbox from "@/components/DjArtistLineupLightbox";
+import DjArtistLineupLightbox from "@/components/artist-lineup_page/DjArtistLineupLightbox";
 import HeroOfAllPages from "@/components/HeroOfAllPages";
-import IndianArtistLineupLightbox from "@/components/IndianArtistLineupLightbox";
-import InternationalArtistLineupLightbox from "@/components/InternationalArtistLineupLightbox";
+import IndianArtistLineupLightbox from "@/components/artist-lineup_page/IndianArtistLineupLightbox";
+import InternationalArtistLineupLightbox from "@/components/artist-lineup_page/InternationalArtistLineupLightbox";
+import RisingArtistLineupLighbox from "@/components/artist-lineup_page/RisingArtistLineupLighbox";
+import EmergingArtistLineupLightbox from "@/components/artist-lineup_page/EmergingArtistLineupLightbox";
+import GuestArtistLineupLightbox from "@/components/artist-lineup_page/GuestArtistLineupLightbox";
+
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
@@ -26,8 +30,8 @@ const page = () => {
         content="Prepare to be captivated by a stellar constellation of talent! The artist line-up at the India International Dance Congress (IIDC) is a testament to the global allure of Latin dance. We've handpicked the brightest stars in the Latin dance world to illuminate our stage and inspire your dancing spirit"
       />
       {/* Artist Lineup Main Section */}
-      <section className="px-6 py-10 md:px-10 lg:py-20 lg:pl-0 lg:px-0">
-        <section className="lg:w-[70rem] lg:mx-auto">
+      <section className="px-6 py-10 md:px-10 lg:px-0 lg:py-20 lg:pl-0">
+        <section className="lg:mx-auto lg:w-[70rem]">
           <h1 className="text-4xl font-semibold  -tracking-tight text-[#1f1f1f] lg:text-5xl">
             Artist Lineup
           </h1>
@@ -49,10 +53,13 @@ const page = () => {
           </p>
         </section>
       </section>
-      <section className="bg-black">
+      <section className="bg-black md:py-10 py-8 lg:py-16">
         <InternationalArtistLineupLightbox />
-        <IndianArtistLineupLightbox />
         <DjArtistLineupLightbox />
+        <IndianArtistLineupLightbox />
+        <RisingArtistLineupLighbox/>
+        <EmergingArtistLineupLightbox/>
+        <GuestArtistLineupLightbox/>
       </section>
     </main>
   );

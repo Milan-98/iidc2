@@ -87,7 +87,7 @@ const page = () => {
         </section>
         {/* Ethos Section ---------------------------------------------------- */}
         <section
-          className={`bg-[#00000048] bg-EthosBg bg-cover bg-fixed bg-center px-6 py-10 text-[#d2d2d2] bg-blend-multiply sm:px-10 sm:py-14 md:px-14 lg:px-24 lg:text-[1.06rem] `}
+          className={`bg-[#00000048] bg-LatinDanceBg bg-cover bg-fixed bg-center px-6 py-10 text-[#d2d2d2] bg-blend-multiply sm:px-10 sm:py-14 md:px-14 lg:px-24 lg:text-[1.06rem] `}
         >
           <h3
             className={`text-center ${poppinsBold.className} text-4xl  font-semibold  -tracking-tight text-[#DF9627]`}
