@@ -20,9 +20,9 @@ const ArtistCarousel = () => {
           zoom={true}
           navigation
         >
-          <SwiperSlide>
+           <SwiperSlide>
             <Image
-              src={"/Slider-4.jpg"}
+              src={"/InterArtist1.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -31,7 +31,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-2.jpg"}
+              src={"/InterArtist2.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -40,7 +40,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-3.jpg"}
+              src={"/InterArtist3.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -49,7 +49,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-6.jpg"}
+              src={"/InterArtist4.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -58,7 +58,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-5.jpg"}
+              src={"/InterArtist5.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -67,7 +67,232 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-1.jpg"}
+              src={"/InterArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist5.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist11.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist12.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist13.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/GuestArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/GuestArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/EmergingArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist5.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -86,9 +311,9 @@ const ArtistCarousel = () => {
           zoom={true}
           navigation
         >
-          <SwiperSlide>
+           <SwiperSlide>
             <Image
-              src={"/Slider-4.jpg"}
+              src={"/InterArtist1.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -97,7 +322,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-2.jpg"}
+              src={"/InterArtist2.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -106,7 +331,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-3.jpg"}
+              src={"/InterArtist3.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -115,7 +340,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-6.jpg"}
+              src={"/InterArtist4.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -124,7 +349,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-5.jpg"}
+              src={"/InterArtist5.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -133,7 +358,232 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-1.jpg"}
+              src={"/InterArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist5.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist11.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist12.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist13.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/GuestArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/GuestArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/EmergingArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist5.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -154,6 +604,213 @@ const ArtistCarousel = () => {
         >
           <SwiperSlide>
             <Image
+              src={"/InterArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist5.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/InterArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist1.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist2.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist3.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist5.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist6.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist7.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist8.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist9.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist10.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist11.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist12.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/IndArtist13.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
               src={"/GuestArtist1.png"}
               alt="First Artist"
               height={400}
@@ -172,7 +829,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-3.jpg"}
+              src={"/EmergingArtist1.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -181,7 +838,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-6.jpg"}
+              src={"/RisingArtist1.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -190,7 +847,7 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-5.jpg"}
+              src={"/RisingArtist2.png"}
               alt="First Artist"
               height={400}
               width={400}
@@ -199,12 +856,31 @@ const ArtistCarousel = () => {
           <SwiperSlide>
             {" "}
             <Image
-              src={"/Slider-1.jpg"}
+              src={"/RisingArtist3.png"}
               alt="First Artist"
               height={400}
               width={400}
             />
           </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist4.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+          <SwiperSlide>
+            {" "}
+            <Image
+              src={"/RisingArtist5.png"}
+              alt="First Artist"
+              height={400}
+              width={400}
+            />
+          </SwiperSlide>
+        
         </Swiper>
       </div>
     </>
