@@ -20,7 +20,7 @@ const ArtistCarousel = () => {
           zoom={true}
           navigation
         >
-           <SwiperSlide>
+          <SwiperSlide>
             <Image
               src={"/InterArtist1.png"}
               alt="First Artist"
@@ -311,7 +311,7 @@ const ArtistCarousel = () => {
           zoom={true}
           navigation
         >
-           <SwiperSlide>
+          <SwiperSlide>
             <Image
               src={"/InterArtist1.png"}
               alt="First Artist"
@@ -592,7 +592,7 @@ const ArtistCarousel = () => {
         </Swiper>
       </div>
       {/* Lg section -------------------------------------------------------------------------*/}
-      <div className="hidden select-none  lg:block lg:mx-auto lg:w-[70rem]">
+      <div className="hidden select-none  lg:mx-auto lg:block lg:w-[70rem]">
         <Swiper
           // install Swiper modules
           modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -880,7 +880,6 @@ const ArtistCarousel = () => {
               width={400}
             />
           </SwiperSlide>
-        
         </Swiper>
       </div>
     </>
