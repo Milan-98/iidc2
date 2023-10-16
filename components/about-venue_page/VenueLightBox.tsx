@@ -10,11 +10,11 @@ const VenueLightBox = () => {
     <>
       <section className="bg-black px-4 pb-14  pt-10 md:px-6 lg:px-0 lg:pb-20  lg:pt-16">
         <section className="lg:mx-auto lg:w-[70rem] ">
-          <h3
+          <h2
             className={`text-4xl font-black text-[#DF9627] lg:text-4xl ${poppinsBold.className} `}
           >
             Venue Snaps
-          </h3>
+          </h2>
           <hr className="mb-4  mt-2  border-b-[1px] border-[#DF9627] lg:mb-8 lg:mt-4  " />
           <section
             onClick={(e) =>

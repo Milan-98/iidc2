@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "Personal Information Protection",
     "User Data Privacy",
   ],
+
 };
 
 const page = () => {

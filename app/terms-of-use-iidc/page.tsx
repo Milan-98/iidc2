@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "User Behavior Guidelines",
     "Intellectual Property Rights",
   ],
+
 };
 
 const page = () => {

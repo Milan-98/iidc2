@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "Event Participation Rules",
     "Dance Responsibility",
   ],
+  
 };
 
 const page = () => {

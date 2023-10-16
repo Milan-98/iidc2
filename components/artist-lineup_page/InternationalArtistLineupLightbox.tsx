@@ -57,6 +57,7 @@ const InternationalArtistLineupLightbox = () => {
               Carlos & Fernanda
             </h5>
           </section>
+
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
               src="/InterMArtist3.png"
@@ -70,7 +71,7 @@ const InternationalArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm md:text-base md:font-semibold lg:text-xl"
             >
-              Adrian
+              Nuno and Nagyla
             </h5>
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
@@ -86,9 +87,10 @@ const InternationalArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm md:text-base md:font-semibold lg:text-xl"
             >
-              Carol Wang
+              Ronie Saleh & Frida
             </h5>
           </section>
+
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
               src="/InterMArtist5.png"
@@ -166,7 +168,7 @@ const InternationalArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
             >
-              Nuno and Nagyla
+              Adrian
             </h5>
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
@@ -182,7 +184,7 @@ const InternationalArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
             >
-              Ronie Saleh & Frida
+              Carol Wang
             </h5>
           </section>
         </section>

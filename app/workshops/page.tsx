@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     "Dance Education",
     "Dance Learning",
   ],
+ 
 };
 
 const page = () => {

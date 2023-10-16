@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "Dance Performances",
     "Dance Party Schedule",
   ],
+  
 };
 
 const page = () => {
