@@ -29,7 +29,7 @@ const GuestArtistLineupLightbox = () => {
         >
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/GuestArtist1.png"
+              src="/GuestMArtist1.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -45,7 +45,7 @@ const GuestArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/GuestArtist2.png"
+              src="/GuestMArtist2.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -84,7 +84,7 @@ const GuestArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/GuestArtist${ElementId}.png`}
+          src={`/GuestMArtist${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}

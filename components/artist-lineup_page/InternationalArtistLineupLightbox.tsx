@@ -10,7 +10,7 @@ const InternationalArtistLineupLightbox = () => {
     <>
       <section className=" px-4   pt-5 md:px-6 lg:mx-auto  lg:w-[70rem] lg:px-0 ">
         <h3
-          className={`lg:text-4xl ${poppinsBold.className} font-black -tracking-tighter text-[#DF9627] lg:px-0  text-[2.1rem] leading-10`}
+          className={`lg:text-4xl ${poppinsBold.className} text-[2.1rem] font-black leading-10 -tracking-tighter  text-[#DF9627] lg:px-0`}
         >
           International Artists
         </h3>
@@ -22,12 +22,12 @@ const InternationalArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className="grid grid-cols-3 lg:grid-cols-4 gap-3 text-[#4b4b4b] lg:gap-x-10 lg:gap-y-14"
+          className="grid grid-cols-3 gap-3 text-[#4b4b4b] lg:grid-cols-4 lg:gap-x-10 lg:gap-y-14"
           id="0"
         >
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/InterArtist1.png"
+              src="/InterMArtist1.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -43,7 +43,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/InterArtist2.png"
+              src="/InterMArtist2.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -54,12 +54,12 @@ const InternationalArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm  md:text-base md:font-semibold lg:text-xl"
             >
-            Carlos & Fernanda
+              Carlos & Fernanda
             </h5>
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist3.png"
+              src="/InterMArtist3.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -75,7 +75,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist4.png"
+              src="/InterMArtist4.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -91,7 +91,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist5.png"
+              src="/InterMArtist5.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -107,7 +107,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist6.png"
+              src="/InterMArtist6.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -123,7 +123,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist7.png"
+              src="/InterMArtist7.png"
               className="mx-auto  duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -139,7 +139,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist8.png"
+              src="/InterMArtist8.png"
               className="mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -155,7 +155,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist9.png"
+              src="/InterMArtist9.png"
               className="mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -171,7 +171,7 @@ const InternationalArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/InterArtist10.png"
+              src="/InterMArtist10.png"
               className="mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -211,7 +211,7 @@ const InternationalArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/InterArtist${ElementId}.png`}
+          src={`/InterMArtist${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}

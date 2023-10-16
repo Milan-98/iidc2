@@ -11,9 +11,9 @@ const EmergingArtistLineupLightbox = () => {
       {/* DJ Section */}
       <section className=" px-4 pb-0 pt-5  md:px-6  lg:mx-auto  lg:w-[70rem] lg:px-0">
         <h3
-          className={`mt-10  leading-10 text-[2.1rem] lg:text-4xl  font-black -tracking-tighter text-[#DF9627] lg:px-0 ${poppinsBold.className} `}
+          className={`mt-10  text-[2.1rem] font-black leading-10  -tracking-tighter text-[#DF9627] lg:px-0 lg:text-4xl ${poppinsBold.className} `}
         >
-         Emerging Talents
+          Emerging Talents
         </h3>
         <hr className="mb-4 mt-2  border-b-[1px] border-[#DF9627] lg:mx-0 lg:mb-7 lg:mt-3 " />
 
@@ -24,12 +24,12 @@ const EmergingArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3 lg:grid-cols-4  gap-3 text-[#4b4b4b] lg:gap-10  "
+          className=" grid grid-cols-3 gap-3  text-[#4b4b4b] lg:grid-cols-4 lg:gap-10  "
           id="0"
         >
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/EmergingArtist1.png"
+              src="/EmergingMArtist1.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -68,7 +68,7 @@ const EmergingArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/EmergingArtist${ElementId}.png`}
+          src={`/EmergingMArtist${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}

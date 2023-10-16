@@ -53,13 +53,13 @@ const page = () => {
           </p>
         </section>
       </section>
-      <section className="bg-black md:py-10 py-8 lg:py-16">
+      <section className="bg-black py-8 md:py-10 lg:py-16">
         <InternationalArtistLineupLightbox />
         <DjArtistLineupLightbox />
         <IndianArtistLineupLightbox />
-        <RisingArtistLineupLighbox/>
-        <EmergingArtistLineupLightbox/>
-        <GuestArtistLineupLightbox/>
+        <RisingArtistLineupLighbox />
+        <EmergingArtistLineupLightbox />
+        <GuestArtistLineupLightbox />
       </section>
     </main>
   );

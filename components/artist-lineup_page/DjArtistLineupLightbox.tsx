@@ -5,15 +5,16 @@ import { Poppins } from "next/font/google";
 const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 const DjArtistLineupLightbox = () => {
   const [ElementId, setElementId] = useState("0");
+  console.log(ElementId);
 
   return (
     <>
       {/* DJ Section */}
       <section className=" px-4 pb-0 pt-5  md:px-6  lg:mx-auto  lg:w-[70rem] lg:px-0">
         <h3
-          className={`mt-10  leading-10 text-[2.1rem] lg:text-4xl  font-black -tracking-tighter text-[#DF9627] lg:px-0 ${poppinsBold.className} `}
+          className={`mt-10  text-[2.1rem] font-black leading-10  -tracking-tighter text-[#DF9627] lg:px-0 lg:text-4xl ${poppinsBold.className} `}
         >
-         International DJs
+          International DJs
         </h3>
         <hr className="mb-4 mt-2  border-b-[1px] border-[#DF9627] lg:mx-0 lg:mb-7 lg:mt-3 " />
 
@@ -24,28 +25,12 @@ const DjArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3 lg:grid-cols-4  gap-3 text-[#4b4b4b] lg:gap-10  "
+          className=" grid grid-cols-3 gap-3  text-[#4b4b4b] lg:grid-cols-4 lg:gap-10  "
           id="0"
         >
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/Dj2.png"
-              className=" mx-auto duration-500 hover:opacity-60 "
-              width={300}
-              height={300}
-              alt="Royal Orchid Photo 1"
-              id="2"
-            />
-            <h5
-              id="0"
-              className="text-center text-sm  md:text-base md:font-bold lg:text-xl"
-            >
-              DJ Dimensions
-            </h5>
-          </section>
-          <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
-            <Image
-              src="/Dj1.png"
+              src="/DjM1.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -54,14 +39,30 @@ const DjArtistLineupLightbox = () => {
             />
             <h5
               id="0"
-              className="text-center text-sm md:text-base md:font-bold lg:text-xl"
+              className="text-center text-sm  md:text-base md:font-bold lg:text-xl"
             >
-             DJ Julian Duke
+              DJ Julian Duke
             </h5>
           </section>
           <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
             <Image
-              src="/Dj3.png"
+              src="/DjM2.png"
+              className=" mx-auto duration-500 hover:opacity-60 "
+              width={300}
+              height={300}
+              alt="Royal Orchid Photo 1"
+              id="2"
+            />
+            <h5
+              id="0"
+              className="text-center text-sm md:text-base md:font-bold lg:text-xl"
+            >
+              DJ Dimensions
+            </h5>
+          </section>
+          <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
+            <Image
+              src="/DjM3.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -72,7 +73,7 @@ const DjArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm md:text-base md:font-bold lg:text-xl"
             >
-             DJ Shark
+              DJ Shark
             </h5>
           </section>
         </section>
@@ -100,7 +101,7 @@ const DjArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/Dj${ElementId}.png`}
+          src={`/DjM${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}
