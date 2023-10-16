@@ -15,7 +15,6 @@ export const metadata: Metadata = {
     "Dance Event Venue",
     "Luxury Event Space",
   ],
-
 };
 
 const page = () => {

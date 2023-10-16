@@ -12,7 +12,6 @@ export const metadata: Metadata = {
     "Latin Dance Enthusiast Passes",
     "Dance Event Tickets",
   ],
-
 };
 
 const page = () => {

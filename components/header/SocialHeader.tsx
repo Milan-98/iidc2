@@ -3,7 +3,7 @@ const SocialHeader = () => {
     // Container of socials and Number
     <section className="static flex h-10 items-center justify-between bg-[#252525]  pl-1 pr-2 sm:pl-3 sm:pr-6 md:pl-4 md:pr-8 lg:pl-9 lg:pr-10">
       {/* container of Fb,insta & Twitter section  */}
-      
+
       <section className="flex h-10  items-center justify-center gap-1 sm:gap-2 lg:gap-1">
         {/* FaceBook Svg------------------------------------------------------- */}
         <a
