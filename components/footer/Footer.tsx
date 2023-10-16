@@ -24,7 +24,7 @@ const Footer = () => {
               family.
             </p>
             <Link
-              href={"/buy-tickets-iidc"}
+              href={"https://iidc.co.in/buy-tickets-iidc"}
               className="group mt-4 flex w-fit items-center justify-center gap-2 rounded-md border-2 border-[#040404] bg-[#040404] px-5 py-3 transition-all duration-700 hover:border-[#DF9627] hover:bg-[#DF9627]  md:mt-6 "
             >
               {" "}
@@ -51,22 +51,27 @@ const Footer = () => {
               </h3>
               <ul className="mt-1 grid gap-1 md:mt-[.27rem]">
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/about-iidc"}>About IIDC</Link>
+                  <Link href={"https://iidc.co.in/about-iidc"}>About IIDC</Link>
                 </li>
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/about-iidc#johnAnthony"}>
+                  <Link href={"https://iidc.co.in/about-iidc#johnAnthony"}>
                     About John Anthony
                   </Link>
                 </li>
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/iidc-itinerary"}>Event Itinerary</Link>
+                  <Link href={"https://iidc.co.in/iidc-itinerary"}>
+                    Event Itinerary
+                  </Link>
                 </li>
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/artist-lineup-iidc"}> Artist Line-up</Link>
+                  <Link href={"https://iidc.co.in/artist-lineup-iidc"}>
+                    {" "}
+                    Artist Line-up
+                  </Link>
                 </li>
 
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/workshops"}> Workshops</Link>
+                  <Link href={"https://iidc.co.in/workshops"}> Workshops</Link>
                 </li>
               </ul>
             </section>
@@ -78,15 +83,21 @@ const Footer = () => {
               </h3>
               <ul className="mt-1 grid gap-1 md:mt-[.27rem]">
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
-                  <Link href={"/terms-of-use-iidc"}>Terms of Use</Link>
+                  <Link href={"https://iidc.co.in/terms-of-use-iidc"}>
+                    Terms of Use
+                  </Link>
                 </li>
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
                   {" "}
-                  <Link href={"/privacy-policy-iidc"}>Privacy Policy</Link>
+                  <Link href={"https://iidc.co.in/privacy-policy-iidc"}>
+                    Privacy Policy
+                  </Link>
                 </li>
                 <li className="w-fit duration-500 hover:text-[#DF9627]">
                   {" "}
-                  <Link href={"/disclaimer-iidc"}>Disclaimer</Link>
+                  <Link href={"https://iidc.co.in/disclaimer-iidc"}>
+                    Disclaimer
+                  </Link>
                 </li>
               </ul>
             </section>
