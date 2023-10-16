@@ -104,7 +104,7 @@ const Footer = () => {
                 alt="Obii Kriationz Logo"
                 width={200}
                 height={200}
-                className="mt-2 md:w-64 lg:w-52"
+                className="mt-2 w-44"
               />
             </a>
           </section>
