@@ -53,7 +53,7 @@ const Header = () => {
             onClick={() => {
               setMobileNavStatus(false);
             }}
-            href={"/"}
+            href={"https://iidc.co.in/"}
           >
             {MobileNavStatus || ScreenPositioning > 9 ? (
               <Image
@@ -107,7 +107,7 @@ const Header = () => {
           <li>
             {" "}
             <Link
-              href={"/"}
+              href={"https://iidc.co.in/"}
               className={`${
                 ScreenPositioning > 9
                   ? "hover:text-[#DF9627]"
@@ -120,7 +120,7 @@ const Header = () => {
           <li>
             {" "}
             <Link
-              href={"/about-iidc"}
+              href={"https://iidc.co.in/about-iidc"}
               className={`${
                 ScreenPositioning > 9
                   ? "hover:text-[#DF9627]"
@@ -133,7 +133,7 @@ const Header = () => {
           <li>
             {" "}
             <Link
-              href={"/artist-lineup-iidc"}
+              href={"https://iidc.co.in/artist-lineup-iidc"}
               className={`${
                 ScreenPositioning > 9
                   ? "hover:text-[#DF9627]"
@@ -146,7 +146,7 @@ const Header = () => {
           <li>
             {" "}
             <Link
-              href={"/about-venue"}
+              href={"https://iidc.co.in/about-venue"}
               className={`${
                 ScreenPositioning > 9
                   ? "hover:text-[#DF9627]"
@@ -159,7 +159,7 @@ const Header = () => {
           <li>
             {" "}
             <Link
-              href={"/iidc-itinerary"}
+              href={"https://iidc.co.in/iidc-itinerary"}
               className={`${
                 ScreenPositioning > 9
                   ? "hover:text-[#DF9627]"
@@ -172,7 +172,7 @@ const Header = () => {
           </li>
           <li>
             <Link
-              href={"/buy-tickets-iidc"}
+              href={"https://iidc.co.in/buy-tickets-iidc"}
               className="group flex items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] px-5 py-3 transition-all duration-700  hover:bg-[#DF9627] "
             >
               {" "}
@@ -197,7 +197,7 @@ const Header = () => {
               onClick={() => {
                 setMobileNavStatus(false);
               }}
-              href={"/"}
+              href={"https://iidc.co.in/"}
               className="duration-500 hover:text-[#DF9627]"
             >
               <li>HOME</li>
@@ -207,7 +207,7 @@ const Header = () => {
               onClick={() => {
                 setMobileNavStatus(false);
               }}
-              href={"/about-iidc"}
+              href={"https://iidc.co.in/about-iidc"}
               className="duration-500 hover:text-[#DF9627]"
             >
               <li>ABOUT IIDC</li>{" "}
@@ -216,7 +216,7 @@ const Header = () => {
               onClick={() => {
                 setMobileNavStatus(false);
               }}
-              href={"/artist-lineup-iidc"}
+              href={"https://iidc.co.in/artist-lineup-iidc"}
               className="duration-500 hover:text-[#DF9627]"
             >
               <li>ARTISTS LINE-UP</li>
@@ -225,13 +225,13 @@ const Header = () => {
               onClick={() => {
                 setMobileNavStatus(false);
               }}
-              href={"/about-venue"}
+              href={"https://iidc.co.in/about-venue"}
               className="duration-500 hover:text-[#DF9627]"
             >
               <li>ABOUT VENUE</li>{" "}
             </Link>
             <Link
-              href={"/iidc-itinerary"}
+              href={"https://iidc.co.in/iidc-itinerary"}
               onClick={() => {
                 setMobileNavStatus(false);
               }}
@@ -243,7 +243,7 @@ const Header = () => {
               onClick={() => {
                 setMobileNavStatus(false);
               }}
-              href={"/buy-tickets-iidc"}
+              href={"https://iidc.co.in/buy-tickets-iidc"}
             >
               <li className="group flex w-fit  items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] px-5 py-3 transition-all duration-700  hover:bg-[#DF9627] ">
                 {" "}
