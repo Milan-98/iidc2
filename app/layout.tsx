@@ -75,10 +75,10 @@ export const metadata: Metadata = {
     ],
   },
   authors: [
-    { name: "MilanParmarforObiiKriationzWebLlp" },
+    { name: "Milan Parmar for OBII KRIATIONZ WEB LLP" },
     {
-      name: "MilanParmarforObiiKriationzWebLlp ",
-      url: "https://milanparmar.site",
+      name: "Milan Parmar for OBII KRIATIONZ WEB LLP ",
+      url: "https://www.obiikriationz.com",
     },
   ],
 };
