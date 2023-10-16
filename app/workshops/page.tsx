@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title:
     "IIDC Workshops - India International Dance Congress Workshop Schedule",
   description:
-    "Explore the exciting lineup of workshops at IIDC. Join us for unique learning opportunities with talented instructors to enhance your dance skills.",
+    "Explore the exciting lineup of workshops at IIDC. Join us for unique learning opportunities with talented instructors to enhance your dance Skills.",
   keywords: [
     "IIDC Workshops",
     "Dance Workshops",
