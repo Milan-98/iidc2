@@ -50,7 +50,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     site: "@IIDC8",
-    creator: "@Milan Parmar",
+    creator: "@MilanParmarforObiiKriationzWebLlp",
     images: "/android-chrome-512x512.png",
     description: "Join us at the India International Dance Congress!",
     title: "India International Dance Congress",
@@ -72,8 +72,8 @@ export const metadata: Metadata = {
     ],
   },
   authors: [
-    { name: "Milan Parmar" },
-    { name: "Milan Parmar", url: "https://milanparmar.site" },
+    { name: "MilanParmarforObiiKriationzWebLlp" },
+    { name: "MilanParmarforObiiKriationzWebLlp ", url: "https://milanparmar.site" },
   ],
 };
 
