@@ -16,6 +16,9 @@ export const metadata: Metadata = {
     "Dance performances",
     "Dance community",
   ],
+  alternates: {
+    canonical: 'iidc.co.in/'
+  },
   description:
     "Explore Latin dance at IIDC - India's Dance Congress. Join for workshops, performances, and a vibrant community. Perfect for all dancers!",
   icons: [

@@ -12,6 +12,7 @@ export const metadata: Metadata = {
     "Latin Dance Enthusiast Passes",
     "Dance Event Tickets",
   ],
+
 };
 
 const page = () => {
@@ -49,9 +50,9 @@ const page = () => {
           </section>
 
           <section className=" mt-14 md:mt-16 lg:mt-0">
-            <h1 className="text-4xl font-semibold -tracking-tight text-[#1f1f1f] ">
+            <h2 className="text-4xl font-semibold -tracking-tight text-[#1f1f1f] ">
               IIDC Tickets
-            </h1>
+            </h2>
             <hr className="mb-3 mt-2 w-56 border-b-[1px] border-[#DF9627] sm:w-[14rem] md:mb-3  md:mt-3 lg:w-[16rem]  lg:text-[1.06rem]" />
             <p className="mt-2">
               Welcome to the IIDC Buy Tickets page, your gateway to an

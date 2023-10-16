@@ -5,7 +5,6 @@ import { Poppins } from "next/font/google";
 const poppinsBold = Poppins({ weight: "700", subsets: ["latin"] });
 const DjArtistLineupLightbox = () => {
   const [ElementId, setElementId] = useState("0");
-  console.log(ElementId);
 
   return (
     <>
