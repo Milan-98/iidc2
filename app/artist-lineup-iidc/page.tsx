@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     "Latin Dance Talent",
     "IIDC Dance Instructors",
   ],
-  
 };
 
 const page = () => {

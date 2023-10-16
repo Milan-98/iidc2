@@ -17,7 +17,7 @@ export const metadata: Metadata = {
     "Dance community",
   ],
   alternates: {
-    canonical: 'iidc.co.in/'
+    canonical: "iidc.co.in/",
   },
   description:
     "Explore Latin dance at IIDC - India's Dance Congress. Join for workshops, performances, and a vibrant community. Perfect for all dancers!",
@@ -76,7 +76,10 @@ export const metadata: Metadata = {
   },
   authors: [
     { name: "MilanParmarforObiiKriationzWebLlp" },
-    { name: "MilanParmarforObiiKriationzWebLlp ", url: "https://milanparmar.site" },
+    {
+      name: "MilanParmarforObiiKriationzWebLlp ",
+      url: "https://milanparmar.site",
+    },
   ],
 };
 
