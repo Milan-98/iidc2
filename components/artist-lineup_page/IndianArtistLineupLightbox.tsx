@@ -11,7 +11,7 @@ const IndianArtistLineupLightbox = () => {
       {/* India artist section ------------------------------------------------ */}
       <section className=" px-4  pt-5  md:px-6  lg:mx-auto  lg:w-[70rem] lg:px-0 ">
         <h3
-          className={`mt-10 text-[2.1rem] leading-10 lg:text-4xl font-black -tracking-tighter text-[#DF9627] lg:px-0  ${poppinsBold.className}  `}
+          className={`mt-10 text-[2.1rem] font-black leading-10 -tracking-tighter text-[#DF9627] lg:px-0 lg:text-4xl  ${poppinsBold.className}  `}
         >
           National Artists
         </h3>
@@ -23,12 +23,12 @@ const IndianArtistLineupLightbox = () => {
               ? setElementId((e.target as HTMLElement).id)
               : setElementId("0")
           }
-          className=" grid grid-cols-3 lg:grid-cols-4 gap-3 text-[#4b4b4b]  lg:gap-x-10 lg:gap-y-14"
+          className=" grid grid-cols-3 gap-3 text-[#4b4b4b] lg:grid-cols-4  lg:gap-x-10 lg:gap-y-14"
           id="0"
         >
           <section className="grid gap-1 md:gap-2 lg:w-fit " id="0">
             <Image
-              src="/IndArtist1.png"
+              src="/IndMArtist1.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -44,7 +44,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist2.png"
+              src="/IndMArtist2.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -60,7 +60,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist3.png"
+              src="/IndMArtist3.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -76,7 +76,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist4.png"
+              src="/IndMArtist4.png"
               className=" mx-auto duration-500 hover:opacity-60"
               width={300}
               height={300}
@@ -92,7 +92,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist5.png"
+              src="/IndMArtist5.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -108,7 +108,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist6.png"
+              src="/IndMArtist6.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -124,7 +124,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist7.png"
+              src="/IndMArtist7.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -140,7 +140,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist8.png"
+              src="/IndMArtist8.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -156,7 +156,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist9.png"
+              src="/IndMArtist9.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -172,7 +172,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist10.png"
+              src="/IndMArtist10.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -188,7 +188,7 @@ const IndianArtistLineupLightbox = () => {
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist11.png"
+              src="/IndMArtist11.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -199,12 +199,12 @@ const IndianArtistLineupLightbox = () => {
               className="  text-center text-sm md:text-base  md:font-semibold lg:text-xl"
               id="0"
             >
-              Sangita Kushwaha 
+              Sangita Kushwaha
             </h5>
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist12.png"
+              src="/IndMArtist12.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -215,12 +215,12 @@ const IndianArtistLineupLightbox = () => {
               className="  text-center text-sm md:text-base  md:font-semibold lg:text-xl"
               id="0"
             >
-             Suumit Arora
+              Suumit Arora
             </h5>
           </section>
           <section className="grid gap-1 md:gap-2 lg:w-fit" id="0">
             <Image
-              src="/IndArtist13.png"
+              src="/IndMArtist13.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -259,7 +259,7 @@ const IndianArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/IndArtist${ElementId}.png`}
+          src={`/IndMArtist${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}

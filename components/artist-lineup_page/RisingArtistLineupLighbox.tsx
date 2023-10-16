@@ -29,7 +29,7 @@ const RisingArtistLineupLightbox = () => {
         >
           <section id="0" className="grid gap-1 md:gap-2 lg:w-fit">
             <Image
-              src="/RisingArtist1.png"
+              src="/RisingMArtist1.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -45,7 +45,7 @@ const RisingArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
             <Image
-              src="/RisingArtist2.png"
+              src="/RisingMArtist2.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -61,7 +61,7 @@ const RisingArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
             <Image
-              src="/RisingArtist3.png"
+              src="/RisingMArtist3.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -72,12 +72,12 @@ const RisingArtistLineupLightbox = () => {
               id="0"
               className="text-center text-sm md:text-base md:font-bold lg:text-xl"
             >
-            Irine
+              Irine
             </h5>
           </section>
           <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
             <Image
-              src="/RisingArtist4.png"
+              src="/RisingMArtist4.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -93,7 +93,7 @@ const RisingArtistLineupLightbox = () => {
           </section>
           <section id="0" className="grid gap-1 md:gap-2  lg:w-fit">
             <Image
-              src="/RisingArtist5.png"
+              src="/RisingMArtist5.png"
               className=" mx-auto duration-500 hover:opacity-60 "
               width={300}
               height={300}
@@ -132,7 +132,7 @@ const RisingArtistLineupLightbox = () => {
           &lt;
         </button>
         <Image
-          src={`/RisingArtist${ElementId}.png`}
+          src={`/RisingMArtist${ElementId}.png`}
           className="w-72 rounded-lg sm:w-96 md:w-[36rem] lg:w-[30rem]"
           width={800}
           height={800}
