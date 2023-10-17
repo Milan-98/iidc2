@@ -103,7 +103,7 @@ export default function Home() {
             </p>
 
             <Link
-              href={"https://iidc.co.in/buy-tickets-iidc"}
+              href={"/buy-tickets-iidc"}
               className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-7 "
             >
               {" "}
@@ -160,7 +160,7 @@ export default function Home() {
                 of the global Latin dance scene.
               </p>
               <Link
-                href={"https://iidc.co.in/buy-tickets-iidc"}
+                href={"/buy-tickets-iidc"}
                 className="group mt-5 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700 hover:bg-[#DF9627]  lg:mt-10 "
               >
                 {" "}
@@ -192,7 +192,7 @@ export default function Home() {
             <hr className="mb-10 mt-2   border-b-[1px] border-[#DF9627]   lg:mb-4 lg:mt-3  " />
             <ArtistCarousel />
             <Link
-              href={"https://iidc.co.in/buy-tickets-iidc"}
+              href={"/buy-tickets-iidc"}
               className="group mx-auto  mt-10 flex w-40 items-center justify-center gap-1 rounded-md border-2 border-[#DF9627] py-3 transition-all duration-700  hover:bg-[#DF9627] "
             >
               {" "}
